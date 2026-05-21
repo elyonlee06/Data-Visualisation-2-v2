@@ -1,0 +1,16 @@
+country,year,median_age,is_projection
+France,1970,31.4,False
+France,2024,42.1,True
+France,2040,43.3,True
+Japan,1970,28.3,False
+Japan,2024,49.4,True
+Japan,2040,53.1,True
+Malaysia,1970,16.3,False
+Malaysia,2024,30.5,True
+Malaysia,2040,36.8,True
+Philippines,1970,14.6,False
+Philippines,2024,25.7,True
+Philippines,2040,32.0,True
+Singapore,1970,18.7,False
+Singapore,2024,35.6,True
+Singapore,2040,44.9,True

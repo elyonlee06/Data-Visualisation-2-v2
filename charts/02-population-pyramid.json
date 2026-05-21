@@ -1,0 +1,775 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":null,
+    "subtitle": [
+      "Each pyramid shows Malaysia's population by age (vertical) and sex (left = male, right = female).",
+      "A wide base = lots of young people. A wide top = lots of old people."
+    ],
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666",
+    "anchor": "start",
+    "fontSize": 20,
+    "offset": 12
+  },
+  "data": {
+    "values": [
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "0-4",
+        "population": 963900,
+        "population_signed": 963900
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "5-9",
+        "population": 901500,
+        "population_signed": 901500
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "10-14",
+        "population": 842800,
+        "population_signed": 842800
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "15-19",
+        "population": 792000,
+        "population_signed": 792000
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "20-24",
+        "population": 693900,
+        "population_signed": 693900
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "25-29",
+        "population": 565000,
+        "population_signed": 565000
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "30-34",
+        "population": 445200,
+        "population_signed": 445200
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "35-39",
+        "population": 355300,
+        "population_signed": 355300
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "40-44",
+        "population": 300100,
+        "population_signed": 300100
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "45-49",
+        "population": 257100,
+        "population_signed": 257100
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "50-54",
+        "population": 214000,
+        "population_signed": 214000
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "55-59",
+        "population": 173100,
+        "population_signed": 173100
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "60-64",
+        "population": 135200,
+        "population_signed": 135200
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "65-69",
+        "population": 100100,
+        "population_signed": 100100
+      },
+      {
+        "year": 1980,
+        "sex": "female",
+        "age_band": "70+",
+        "population": 148000,
+        "population_signed": 148000
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "0-4",
+        "population": 1015200,
+        "population_signed": -1015200
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "5-9",
+        "population": 942600,
+        "population_signed": -942600
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "10-14",
+        "population": 876300,
+        "population_signed": -876300
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "15-19",
+        "population": 784500,
+        "population_signed": -784500
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "20-24",
+        "population": 661200,
+        "population_signed": -661200
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "25-29",
+        "population": 553200,
+        "population_signed": -553200
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "30-34",
+        "population": 456000,
+        "population_signed": -456000
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "35-39",
+        "population": 374600,
+        "population_signed": -374600
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "40-44",
+        "population": 313100,
+        "population_signed": -313100
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "45-49",
+        "population": 259000,
+        "population_signed": -259000
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "50-54",
+        "population": 210500,
+        "population_signed": -210500
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "55-59",
+        "population": 169500,
+        "population_signed": -169500
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "60-64",
+        "population": 133200,
+        "population_signed": -133200
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "65-69",
+        "population": 100000,
+        "population_signed": -100000
+      },
+      {
+        "year": 1980,
+        "sex": "male",
+        "age_band": "70+",
+        "population": 143000,
+        "population_signed": -143000
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "0-4",
+        "population": 1220400,
+        "population_signed": 1220400
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "5-9",
+        "population": 1294900,
+        "population_signed": 1294900
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "10-14",
+        "population": 1295600,
+        "population_signed": 1295600
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "15-19",
+        "population": 1383600,
+        "population_signed": 1383600
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "20-24",
+        "population": 1408000,
+        "population_signed": 1408000
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "25-29",
+        "population": 1310700,
+        "population_signed": 1310700
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "30-34",
+        "population": 1019300,
+        "population_signed": 1019300
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "35-39",
+        "population": 941100,
+        "population_signed": 941100
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "40-44",
+        "population": 883100,
+        "population_signed": 883100
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "45-49",
+        "population": 774200,
+        "population_signed": 774200
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "50-54",
+        "population": 664100,
+        "population_signed": 664100
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "55-59",
+        "population": 519100,
+        "population_signed": 519100
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "60-64",
+        "population": 406700,
+        "population_signed": 406700
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "65-69",
+        "population": 267600,
+        "population_signed": 267600
+      },
+      {
+        "year": 2010,
+        "sex": "female",
+        "age_band": "70+",
+        "population": 469600,
+        "population_signed": 469600
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "0-4",
+        "population": 1288200,
+        "population_signed": -1288200
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "5-9",
+        "population": 1364500,
+        "population_signed": -1364500
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "10-14",
+        "population": 1358400,
+        "population_signed": -1358400
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "15-19",
+        "population": 1453800,
+        "population_signed": -1453800
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "20-24",
+        "population": 1504000,
+        "population_signed": -1504000
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "25-29",
+        "population": 1478900,
+        "population_signed": -1478900
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "30-34",
+        "population": 1162400,
+        "population_signed": -1162400
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "35-39",
+        "population": 1013700,
+        "population_signed": -1013700
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "40-44",
+        "population": 908400,
+        "population_signed": -908400
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "45-49",
+        "population": 840100,
+        "population_signed": -840100
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "50-54",
+        "population": 706700,
+        "population_signed": -706700
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "55-59",
+        "population": 547000,
+        "population_signed": -547000
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "60-64",
+        "population": 416800,
+        "population_signed": -416800
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "65-69",
+        "population": 270400,
+        "population_signed": -270400
+      },
+      {
+        "year": 2010,
+        "sex": "male",
+        "age_band": "70+",
+        "population": 417500,
+        "population_signed": -417500
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "0-4",
+        "population": 1140600,
+        "population_signed": 1140600
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "5-9",
+        "population": 1258900,
+        "population_signed": 1258900
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "10-14",
+        "population": 1261200,
+        "population_signed": 1261200
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "15-19",
+        "population": 1296700,
+        "population_signed": 1296700
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "20-24",
+        "population": 1428900,
+        "population_signed": 1428900
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "25-29",
+        "population": 1332200,
+        "population_signed": 1332200
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "30-34",
+        "population": 1330100,
+        "population_signed": 1330100
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "35-39",
+        "population": 1335200,
+        "population_signed": 1335200
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "40-44",
+        "population": 1223400,
+        "population_signed": 1223400
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "45-49",
+        "population": 967400,
+        "population_signed": 967400
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "50-54",
+        "population": 845700,
+        "population_signed": 845700
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "55-59",
+        "population": 737300,
+        "population_signed": 737300
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "60-64",
+        "population": 667400,
+        "population_signed": 667400
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "65-69",
+        "population": 536400,
+        "population_signed": 536400
+      },
+      {
+        "year": 2024,
+        "sex": "female",
+        "age_band": "70+",
+        "population": 811800,
+        "population_signed": 811800
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "0-4",
+        "population": 1214800,
+        "population_signed": -1214800
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "5-9",
+        "population": 1315800,
+        "population_signed": -1315800
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "10-14",
+        "population": 1359500,
+        "population_signed": -1359500
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "15-19",
+        "population": 1427900,
+        "population_signed": -1427900
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "20-24",
+        "population": 1727600,
+        "population_signed": -1727600
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "25-29",
+        "population": 1704100,
+        "population_signed": -1704100
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "30-34",
+        "population": 1626000,
+        "population_signed": -1626000
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "35-39",
+        "population": 1521500,
+        "population_signed": -1521500
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "40-44",
+        "population": 1384600,
+        "population_signed": -1384600
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "45-49",
+        "population": 1051000,
+        "population_signed": -1051000
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "50-54",
+        "population": 877400,
+        "population_signed": -877400
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "55-59",
+        "population": 735500,
+        "population_signed": -735500
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "60-64",
+        "population": 672200,
+        "population_signed": -672200
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "65-69",
+        "population": 515100,
+        "population_signed": -515100
+      },
+      {
+        "year": 2024,
+        "sex": "male",
+        "age_band": "70+",
+        "population": 745900,
+        "population_signed": -745900
+      }
+    ]
+  },
+  "spacing": 40,
+  "columns": 3,
+  "facet": {
+    "field": "year",
+    "type": "ordinal",
+    "header": {
+      "title": null,
+      "labelFontSize": 18,
+      "labelFontWeight": "bold",
+      "labelColor": "#222",
+      "labelOrient": "top",
+      "labelPadding": 12
+    }
+  },
+  "spec": {
+    "width": 220,
+    "height": 280,
+    "mark": {
+      "type": "bar",
+      "stroke": "white",
+      "strokeWidth": 1
+    },
+    "encoding": {
+      "y": {
+        "field": "age_band",
+        "type": "ordinal",
+        "sort": [
+          "0-4",
+          "5-9",
+          "10-14",
+          "15-19",
+          "20-24",
+          "25-29",
+          "30-34",
+          "35-39",
+          "40-44",
+          "45-49",
+          "50-54",
+          "55-59",
+          "60-64",
+          "65-69",
+          "70+"
+        ],
+        "axis": {
+          "title": null,
+          "labelFontSize": 9,
+          "labelColor": "#555",
+          "ticks": false,
+          "domain": false
+        }
+      },
+      "x": {
+        "field": "population_signed",
+        "type": "quantitative",
+        "scale": {
+          "domain": [
+            -2000000,
+            2000000
+          ]
+        },
+        "axis": {
+          "title": "\u2190 Males   |   Females \u2192",
+          "titleFontSize": 11,
+          "titleColor": "#666",
+          "values": [
+            -1500000,
+            -1000000,
+            -500000,
+            0,
+            500000,
+            1000000,
+            1500000
+          ],
+          "labelExpr": "abs(datum.value) >= 1000000 ? (abs(datum.value)/1000000) + 'M' : (abs(datum.value)/1000) + 'k'",
+          "labelFontSize": 9,
+          "labelColor": "#888",
+          "grid": true,
+          "gridDash": [
+            2,
+            4
+          ],
+          "gridColor": "#eee"
+        }
+      },
+      "color": {
+        "field": "sex",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "male",
+            "female"
+          ],
+          "range": [
+            "#4c78a8",
+            "#e15759"
+          ]
+        },
+        "legend": null
+      },
+      "tooltip": [
+        {
+          "field": "year",
+          "title": "Year"
+        },
+        {
+          "field": "sex",
+          "title": "Sex"
+        },
+        {
+          "field": "age_band",
+          "title": "Age"
+        },
+        {
+          "field": "population",
+          "title": "Population",
+          "format": ","
+        }
+      ]
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+  }
+}

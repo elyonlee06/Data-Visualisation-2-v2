@@ -1,0 +1,1054 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": null,
+    "subtitle": [
+      "Share of population aged 65+ in 2000 vs 2024, by state.",
+      "Selangor's elderly share grew the most: 2.8% \u2192 8.0%, a 5.3-point jump.",
+      "Source: Department of Statistics Malaysia (DOSM). Putrajaya excluded \u2014 only founded in 2001."
+    ],
+    "subtitleFontSize": 12,
+    "subtitleColor": "#666",
+    "anchor": "start",
+    "fontSize": 20,
+    "offset": 12
+  },
+  "width": 720,
+  "height": 460,
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2000,
+            "pct_65plus": 3.96,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2024,
+            "pct_65plus": 7.39,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2000,
+            "pct_65plus": 5.17,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2024,
+            "pct_65plus": 9.09,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2000,
+            "pct_65plus": 4.77,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2024,
+            "pct_65plus": 7.04,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2000,
+            "pct_65plus": 5.21,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2024,
+            "pct_65plus": 6.76,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2000,
+            "pct_65plus": 4.72,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2024,
+            "pct_65plus": 7.64,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2000,
+            "pct_65plus": 3.33,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2024,
+            "pct_65plus": 6.78,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2000,
+            "pct_65plus": 5.9,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2024,
+            "pct_65plus": 9.91,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2000,
+            "pct_65plus": 6.07,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2024,
+            "pct_65plus": 8.25,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2000,
+            "pct_65plus": 5.07,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2024,
+            "pct_65plus": 8.01,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2000,
+            "pct_65plus": 2.38,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2024,
+            "pct_65plus": 6.18,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2000,
+            "pct_65plus": 4.23,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2024,
+            "pct_65plus": 8.64,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2000,
+            "pct_65plus": 2.78,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2024,
+            "pct_65plus": 8.05,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2000,
+            "pct_65plus": 4.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2024,
+            "pct_65plus": 6.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2000,
+            "pct_65plus": 3.21,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2024,
+            "pct_65plus": 6.77,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2000,
+            "pct_65plus": 1.84,
+            "change": 3.32,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2024,
+            "pct_65plus": 5.16,
+            "change": 3.32,
+            "highlight": "_other"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.highlight === '_other'"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "#1f1f1f",
+        "strokeWidth": 1.0,
+        "opacity": 0.75
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              2000,
+              2024
+            ],
+            "padding": 0.5
+          },
+          "axis": {
+            "title": null,
+            "labelFontSize": 13,
+            "labelFontWeight": "bold",
+            "labelColor": "#333",
+            "domain": false,
+            "ticks": false,
+            "grid": false,
+            "orient": "top",
+            "labelPadding": 10
+          }
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1,
+              11
+            ]
+          },
+          "axis": {
+            "title": "% aged 65+",
+            "titleFontSize": 11,
+            "titleColor": "#666",
+            "labelFontSize": 10,
+            "labelColor": "#888",
+            "labelExpr": "datum.value + '%'",
+            "grid": true,
+            "gridDash": [
+              2,
+              4
+            ],
+            "gridColor": "#eee"
+          }
+        },
+        "detail": {
+          "field": "state"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2000,
+            "pct_65plus": 3.96,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2024,
+            "pct_65plus": 7.39,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2000,
+            "pct_65plus": 5.17,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2024,
+            "pct_65plus": 9.09,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2000,
+            "pct_65plus": 4.77,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2024,
+            "pct_65plus": 7.04,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2000,
+            "pct_65plus": 5.21,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2024,
+            "pct_65plus": 6.76,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2000,
+            "pct_65plus": 4.72,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2024,
+            "pct_65plus": 7.64,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2000,
+            "pct_65plus": 3.33,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2024,
+            "pct_65plus": 6.78,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2000,
+            "pct_65plus": 5.9,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2024,
+            "pct_65plus": 9.91,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2000,
+            "pct_65plus": 6.07,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2024,
+            "pct_65plus": 8.25,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2000,
+            "pct_65plus": 5.07,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2024,
+            "pct_65plus": 8.01,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2000,
+            "pct_65plus": 2.38,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2024,
+            "pct_65plus": 6.18,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2000,
+            "pct_65plus": 4.23,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2024,
+            "pct_65plus": 8.64,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2000,
+            "pct_65plus": 2.78,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2024,
+            "pct_65plus": 8.05,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2000,
+            "pct_65plus": 4.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2024,
+            "pct_65plus": 6.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2000,
+            "pct_65plus": 3.21,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2024,
+            "pct_65plus": 6.77,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2000,
+            "pct_65plus": 1.84,
+            "change": 3.32,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2024,
+            "pct_65plus": 5.16,
+            "change": 3.32,
+            "highlight": "_other"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.highlight !== '_other'"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 4
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "state",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Selangor",
+              "Sarawak",
+              "Perak"
+            ],
+            "range": [
+              "#9d2c2c",
+              "#d96d3a",
+              "#e89c50"
+            ]
+          },
+          "legend": null
+        },
+        "detail": {
+          "field": "state"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2000,
+            "pct_65plus": 3.96,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Johor",
+            "map_name": "Johor",
+            "year": 2024,
+            "pct_65plus": 7.39,
+            "change": 3.43,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2000,
+            "pct_65plus": 5.17,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kedah",
+            "map_name": "Kedah",
+            "year": 2024,
+            "pct_65plus": 9.09,
+            "change": 3.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2000,
+            "pct_65plus": 4.77,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Kelantan",
+            "map_name": "Kelantan",
+            "year": 2024,
+            "pct_65plus": 7.04,
+            "change": 2.27,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2000,
+            "pct_65plus": 5.21,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Melaka",
+            "map_name": "Malacca",
+            "year": 2024,
+            "pct_65plus": 6.76,
+            "change": 1.55,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2000,
+            "pct_65plus": 4.72,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Negeri Sembilan",
+            "map_name": "Negeri Sembilan",
+            "year": 2024,
+            "pct_65plus": 7.64,
+            "change": 2.92,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2000,
+            "pct_65plus": 3.33,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pahang",
+            "map_name": "Pahang",
+            "year": 2024,
+            "pct_65plus": 6.78,
+            "change": 3.45,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2000,
+            "pct_65plus": 5.9,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perak",
+            "map_name": "Perak",
+            "year": 2024,
+            "pct_65plus": 9.91,
+            "change": 4.01,
+            "highlight": "Perak"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2000,
+            "pct_65plus": 6.07,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Perlis",
+            "map_name": "Perlis",
+            "year": 2024,
+            "pct_65plus": 8.25,
+            "change": 2.18,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2000,
+            "pct_65plus": 5.07,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Pulau Pinang",
+            "map_name": "Penang",
+            "year": 2024,
+            "pct_65plus": 8.01,
+            "change": 2.94,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2000,
+            "pct_65plus": 2.38,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sabah",
+            "map_name": "Sabah",
+            "year": 2024,
+            "pct_65plus": 6.18,
+            "change": 3.8,
+            "highlight": "_other"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2000,
+            "pct_65plus": 4.23,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Sarawak",
+            "map_name": "Sarawak",
+            "year": 2024,
+            "pct_65plus": 8.64,
+            "change": 4.41,
+            "highlight": "Sarawak"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2000,
+            "pct_65plus": 2.78,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Selangor",
+            "map_name": "Selangor",
+            "year": 2024,
+            "pct_65plus": 8.05,
+            "change": 5.27,
+            "highlight": "Selangor"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2000,
+            "pct_65plus": 4.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "Terengganu",
+            "map_name": "Terengganu",
+            "year": 2024,
+            "pct_65plus": 6.07,
+            "change": 2.0,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2000,
+            "pct_65plus": 3.21,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Kuala Lumpur",
+            "map_name": "Kuala Lumpur",
+            "year": 2024,
+            "pct_65plus": 6.77,
+            "change": 3.56,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2000,
+            "pct_65plus": 1.84,
+            "change": 3.32,
+            "highlight": "_other"
+          },
+          {
+            "state": "W.P. Labuan",
+            "map_name": "Labuan",
+            "year": 2024,
+            "pct_65plus": 5.16,
+            "change": 3.32,
+            "highlight": "_other"
+          }
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 50,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "highlight",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Selangor",
+              "Sarawak",
+              "Perak",
+              "_other"
+            ],
+            "range": [
+              "#9d2c2c",
+              "#d96d3a",
+              "#e89c50",
+              "#1f1f1f"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "pct_65plus",
+            "title": "% 65+",
+            "format": ".2f"
+          },
+          {
+            "field": "change",
+            "title": "Change since 2000",
+            "format": "+.2f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2000,
+            "pct_65plus": 4.18
+          },
+          {
+            "year": 2024,
+            "pct_65plus": 7.45
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#222",
+        "strokeDash": [
+          4,
+          3
+        ],
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2024,
+            "pct_65plus": 7.45,
+            "label": "Avg 7.5%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 11,
+        "fontStyle": "italic",
+        "color": "#444"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "End-of-line label for highlighted states (single line).",
+      "data": {
+        "values": [
+          {
+            "state": "Selangor",
+            "year": 2024,
+            "pct_65plus": 8.05,
+            "label_main": "Selangor",
+            "label_sub": "+5.27 pts",
+            "combined_label": "Selangor  +5.27 pts"
+          },
+          {
+            "state": "Sarawak",
+            "year": 2024,
+            "pct_65plus": 8.64,
+            "label_main": "Sarawak",
+            "label_sub": "+4.41 pts",
+            "combined_label": "Sarawak  +4.41 pts"
+          },
+          {
+            "state": "Perak",
+            "year": 2024,
+            "pct_65plus": 9.91,
+            "label_main": "Perak",
+            "label_sub": "+4.01 pts",
+            "combined_label": "Perak  +4.01 pts"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 13,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "pct_65plus",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "combined_label"
+        },
+        "color": {
+          "field": "state",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Selangor",
+              "Sarawak",
+              "Perak"
+            ],
+            "range": [
+              "#9d2c2c",
+              "#d96d3a",
+              "#e89c50"
+            ]
+          },
+          "legend": null
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+  }
+}

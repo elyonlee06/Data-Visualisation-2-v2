@@ -1,0 +1,1660 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": null,
+    "subtitle": [
+      "Composition of Malaysia's population by age group, 1970 \u2192 2040. Each band = % of total population.",
+      "Children (blue) have halved. Workers (grey) have peaked. The elderly (red) wedge is the engine of what comes next."
+    ],
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666",
+    "anchor": "start",
+    "fontSize": 20,
+    "offset": 12
+  },
+  "width": 760,
+  "height": 380,
+  "data": {
+    "values": [
+      {
+        "year": 1970,
+        "band": "0-14",
+        "pct": 44.55,
+        "source": "historical"
+      },
+      {
+        "year": 1970,
+        "band": "15-64",
+        "pct": 52.17,
+        "source": "historical"
+      },
+      {
+        "year": 1970,
+        "band": "65+",
+        "pct": 3.28,
+        "source": "historical"
+      },
+      {
+        "year": 1971,
+        "band": "0-14",
+        "pct": 43.97,
+        "source": "historical"
+      },
+      {
+        "year": 1971,
+        "band": "15-64",
+        "pct": 52.66,
+        "source": "historical"
+      },
+      {
+        "year": 1971,
+        "band": "65+",
+        "pct": 3.37,
+        "source": "historical"
+      },
+      {
+        "year": 1972,
+        "band": "0-14",
+        "pct": 43.48,
+        "source": "historical"
+      },
+      {
+        "year": 1972,
+        "band": "15-64",
+        "pct": 53.11,
+        "source": "historical"
+      },
+      {
+        "year": 1972,
+        "band": "65+",
+        "pct": 3.4,
+        "source": "historical"
+      },
+      {
+        "year": 1973,
+        "band": "0-14",
+        "pct": 42.98,
+        "source": "historical"
+      },
+      {
+        "year": 1973,
+        "band": "15-64",
+        "pct": 53.55,
+        "source": "historical"
+      },
+      {
+        "year": 1973,
+        "band": "65+",
+        "pct": 3.47,
+        "source": "historical"
+      },
+      {
+        "year": 1974,
+        "band": "0-14",
+        "pct": 42.5,
+        "source": "historical"
+      },
+      {
+        "year": 1974,
+        "band": "15-64",
+        "pct": 53.97,
+        "source": "historical"
+      },
+      {
+        "year": 1974,
+        "band": "65+",
+        "pct": 3.53,
+        "source": "historical"
+      },
+      {
+        "year": 1975,
+        "band": "0-14",
+        "pct": 42.04,
+        "source": "historical"
+      },
+      {
+        "year": 1975,
+        "band": "15-64",
+        "pct": 54.36,
+        "source": "historical"
+      },
+      {
+        "year": 1975,
+        "band": "65+",
+        "pct": 3.6,
+        "source": "historical"
+      },
+      {
+        "year": 1976,
+        "band": "0-14",
+        "pct": 41.54,
+        "source": "historical"
+      },
+      {
+        "year": 1976,
+        "band": "15-64",
+        "pct": 54.84,
+        "source": "historical"
+      },
+      {
+        "year": 1976,
+        "band": "65+",
+        "pct": 3.62,
+        "source": "historical"
+      },
+      {
+        "year": 1977,
+        "band": "0-14",
+        "pct": 41.1,
+        "source": "historical"
+      },
+      {
+        "year": 1977,
+        "band": "15-64",
+        "pct": 55.31,
+        "source": "historical"
+      },
+      {
+        "year": 1977,
+        "band": "65+",
+        "pct": 3.59,
+        "source": "historical"
+      },
+      {
+        "year": 1978,
+        "band": "0-14",
+        "pct": 40.64,
+        "source": "historical"
+      },
+      {
+        "year": 1978,
+        "band": "15-64",
+        "pct": 55.77,
+        "source": "historical"
+      },
+      {
+        "year": 1978,
+        "band": "65+",
+        "pct": 3.59,
+        "source": "historical"
+      },
+      {
+        "year": 1979,
+        "band": "0-14",
+        "pct": 40.21,
+        "source": "historical"
+      },
+      {
+        "year": 1979,
+        "band": "15-64",
+        "pct": 56.19,
+        "source": "historical"
+      },
+      {
+        "year": 1979,
+        "band": "65+",
+        "pct": 3.6,
+        "source": "historical"
+      },
+      {
+        "year": 1980,
+        "band": "0-14",
+        "pct": 39.93,
+        "source": "historical"
+      },
+      {
+        "year": 1980,
+        "band": "15-64",
+        "pct": 56.53,
+        "source": "historical"
+      },
+      {
+        "year": 1980,
+        "band": "65+",
+        "pct": 3.54,
+        "source": "historical"
+      },
+      {
+        "year": 1981,
+        "band": "0-14",
+        "pct": 39.43,
+        "source": "historical"
+      },
+      {
+        "year": 1981,
+        "band": "15-64",
+        "pct": 57.0,
+        "source": "historical"
+      },
+      {
+        "year": 1981,
+        "band": "65+",
+        "pct": 3.57,
+        "source": "historical"
+      },
+      {
+        "year": 1982,
+        "band": "0-14",
+        "pct": 39.07,
+        "source": "historical"
+      },
+      {
+        "year": 1982,
+        "band": "15-64",
+        "pct": 57.34,
+        "source": "historical"
+      },
+      {
+        "year": 1982,
+        "band": "65+",
+        "pct": 3.6,
+        "source": "historical"
+      },
+      {
+        "year": 1983,
+        "band": "0-14",
+        "pct": 38.67,
+        "source": "historical"
+      },
+      {
+        "year": 1983,
+        "band": "15-64",
+        "pct": 57.72,
+        "source": "historical"
+      },
+      {
+        "year": 1983,
+        "band": "65+",
+        "pct": 3.61,
+        "source": "historical"
+      },
+      {
+        "year": 1984,
+        "band": "0-14",
+        "pct": 38.41,
+        "source": "historical"
+      },
+      {
+        "year": 1984,
+        "band": "15-64",
+        "pct": 57.97,
+        "source": "historical"
+      },
+      {
+        "year": 1984,
+        "band": "65+",
+        "pct": 3.62,
+        "source": "historical"
+      },
+      {
+        "year": 1985,
+        "band": "0-14",
+        "pct": 38.29,
+        "source": "historical"
+      },
+      {
+        "year": 1985,
+        "band": "15-64",
+        "pct": 58.1,
+        "source": "historical"
+      },
+      {
+        "year": 1985,
+        "band": "65+",
+        "pct": 3.61,
+        "source": "historical"
+      },
+      {
+        "year": 1986,
+        "band": "0-14",
+        "pct": 38.11,
+        "source": "historical"
+      },
+      {
+        "year": 1986,
+        "band": "15-64",
+        "pct": 58.27,
+        "source": "historical"
+      },
+      {
+        "year": 1986,
+        "band": "65+",
+        "pct": 3.62,
+        "source": "historical"
+      },
+      {
+        "year": 1987,
+        "band": "0-14",
+        "pct": 37.98,
+        "source": "historical"
+      },
+      {
+        "year": 1987,
+        "band": "15-64",
+        "pct": 58.39,
+        "source": "historical"
+      },
+      {
+        "year": 1987,
+        "band": "65+",
+        "pct": 3.63,
+        "source": "historical"
+      },
+      {
+        "year": 1988,
+        "band": "0-14",
+        "pct": 37.82,
+        "source": "historical"
+      },
+      {
+        "year": 1988,
+        "band": "15-64",
+        "pct": 58.54,
+        "source": "historical"
+      },
+      {
+        "year": 1988,
+        "band": "65+",
+        "pct": 3.64,
+        "source": "historical"
+      },
+      {
+        "year": 1989,
+        "band": "0-14",
+        "pct": 37.65,
+        "source": "historical"
+      },
+      {
+        "year": 1989,
+        "band": "15-64",
+        "pct": 58.71,
+        "source": "historical"
+      },
+      {
+        "year": 1989,
+        "band": "65+",
+        "pct": 3.64,
+        "source": "historical"
+      },
+      {
+        "year": 1990,
+        "band": "0-14",
+        "pct": 37.43,
+        "source": "historical"
+      },
+      {
+        "year": 1990,
+        "band": "15-64",
+        "pct": 58.94,
+        "source": "historical"
+      },
+      {
+        "year": 1990,
+        "band": "65+",
+        "pct": 3.64,
+        "source": "historical"
+      },
+      {
+        "year": 1991,
+        "band": "0-14",
+        "pct": 37.2,
+        "source": "historical"
+      },
+      {
+        "year": 1991,
+        "band": "15-64",
+        "pct": 59.15,
+        "source": "historical"
+      },
+      {
+        "year": 1991,
+        "band": "65+",
+        "pct": 3.64,
+        "source": "historical"
+      },
+      {
+        "year": 1992,
+        "band": "0-14",
+        "pct": 36.91,
+        "source": "historical"
+      },
+      {
+        "year": 1992,
+        "band": "15-64",
+        "pct": 59.38,
+        "source": "historical"
+      },
+      {
+        "year": 1992,
+        "band": "65+",
+        "pct": 3.71,
+        "source": "historical"
+      },
+      {
+        "year": 1993,
+        "band": "0-14",
+        "pct": 36.69,
+        "source": "historical"
+      },
+      {
+        "year": 1993,
+        "band": "15-64",
+        "pct": 59.59,
+        "source": "historical"
+      },
+      {
+        "year": 1993,
+        "band": "65+",
+        "pct": 3.72,
+        "source": "historical"
+      },
+      {
+        "year": 1994,
+        "band": "0-14",
+        "pct": 36.39,
+        "source": "historical"
+      },
+      {
+        "year": 1994,
+        "band": "15-64",
+        "pct": 59.87,
+        "source": "historical"
+      },
+      {
+        "year": 1994,
+        "band": "65+",
+        "pct": 3.74,
+        "source": "historical"
+      },
+      {
+        "year": 1995,
+        "band": "0-14",
+        "pct": 36.04,
+        "source": "historical"
+      },
+      {
+        "year": 1995,
+        "band": "15-64",
+        "pct": 60.19,
+        "source": "historical"
+      },
+      {
+        "year": 1995,
+        "band": "65+",
+        "pct": 3.77,
+        "source": "historical"
+      },
+      {
+        "year": 1996,
+        "band": "0-14",
+        "pct": 35.65,
+        "source": "historical"
+      },
+      {
+        "year": 1996,
+        "band": "15-64",
+        "pct": 60.55,
+        "source": "historical"
+      },
+      {
+        "year": 1996,
+        "band": "65+",
+        "pct": 3.8,
+        "source": "historical"
+      },
+      {
+        "year": 1997,
+        "band": "0-14",
+        "pct": 35.23,
+        "source": "historical"
+      },
+      {
+        "year": 1997,
+        "band": "15-64",
+        "pct": 60.94,
+        "source": "historical"
+      },
+      {
+        "year": 1997,
+        "band": "65+",
+        "pct": 3.83,
+        "source": "historical"
+      },
+      {
+        "year": 1998,
+        "band": "0-14",
+        "pct": 34.84,
+        "source": "historical"
+      },
+      {
+        "year": 1998,
+        "band": "15-64",
+        "pct": 61.29,
+        "source": "historical"
+      },
+      {
+        "year": 1998,
+        "band": "65+",
+        "pct": 3.86,
+        "source": "historical"
+      },
+      {
+        "year": 1999,
+        "band": "0-14",
+        "pct": 34.42,
+        "source": "historical"
+      },
+      {
+        "year": 1999,
+        "band": "15-64",
+        "pct": 61.67,
+        "source": "historical"
+      },
+      {
+        "year": 1999,
+        "band": "65+",
+        "pct": 3.91,
+        "source": "historical"
+      },
+      {
+        "year": 2000,
+        "band": "0-14",
+        "pct": 34.06,
+        "source": "historical"
+      },
+      {
+        "year": 2000,
+        "band": "15-64",
+        "pct": 61.97,
+        "source": "historical"
+      },
+      {
+        "year": 2000,
+        "band": "65+",
+        "pct": 3.97,
+        "source": "historical"
+      },
+      {
+        "year": 2001,
+        "band": "0-14",
+        "pct": 33.6,
+        "source": "historical"
+      },
+      {
+        "year": 2001,
+        "band": "15-64",
+        "pct": 62.34,
+        "source": "historical"
+      },
+      {
+        "year": 2001,
+        "band": "65+",
+        "pct": 4.07,
+        "source": "historical"
+      },
+      {
+        "year": 2002,
+        "band": "0-14",
+        "pct": 32.99,
+        "source": "historical"
+      },
+      {
+        "year": 2002,
+        "band": "15-64",
+        "pct": 62.83,
+        "source": "historical"
+      },
+      {
+        "year": 2002,
+        "band": "65+",
+        "pct": 4.18,
+        "source": "historical"
+      },
+      {
+        "year": 2003,
+        "band": "0-14",
+        "pct": 32.3,
+        "source": "historical"
+      },
+      {
+        "year": 2003,
+        "band": "15-64",
+        "pct": 63.42,
+        "source": "historical"
+      },
+      {
+        "year": 2003,
+        "band": "65+",
+        "pct": 4.29,
+        "source": "historical"
+      },
+      {
+        "year": 2004,
+        "band": "0-14",
+        "pct": 31.6,
+        "source": "historical"
+      },
+      {
+        "year": 2004,
+        "band": "15-64",
+        "pct": 64.01,
+        "source": "historical"
+      },
+      {
+        "year": 2004,
+        "band": "65+",
+        "pct": 4.39,
+        "source": "historical"
+      },
+      {
+        "year": 2005,
+        "band": "0-14",
+        "pct": 30.87,
+        "source": "historical"
+      },
+      {
+        "year": 2005,
+        "band": "15-64",
+        "pct": 64.64,
+        "source": "historical"
+      },
+      {
+        "year": 2005,
+        "band": "65+",
+        "pct": 4.49,
+        "source": "historical"
+      },
+      {
+        "year": 2006,
+        "band": "0-14",
+        "pct": 30.12,
+        "source": "historical"
+      },
+      {
+        "year": 2006,
+        "band": "15-64",
+        "pct": 65.28,
+        "source": "historical"
+      },
+      {
+        "year": 2006,
+        "band": "65+",
+        "pct": 4.6,
+        "source": "historical"
+      },
+      {
+        "year": 2007,
+        "band": "0-14",
+        "pct": 29.39,
+        "source": "historical"
+      },
+      {
+        "year": 2007,
+        "band": "15-64",
+        "pct": 65.93,
+        "source": "historical"
+      },
+      {
+        "year": 2007,
+        "band": "65+",
+        "pct": 4.69,
+        "source": "historical"
+      },
+      {
+        "year": 2008,
+        "band": "0-14",
+        "pct": 28.67,
+        "source": "historical"
+      },
+      {
+        "year": 2008,
+        "band": "15-64",
+        "pct": 66.56,
+        "source": "historical"
+      },
+      {
+        "year": 2008,
+        "band": "65+",
+        "pct": 4.76,
+        "source": "historical"
+      },
+      {
+        "year": 2009,
+        "band": "0-14",
+        "pct": 28.01,
+        "source": "historical"
+      },
+      {
+        "year": 2009,
+        "band": "15-64",
+        "pct": 67.14,
+        "source": "historical"
+      },
+      {
+        "year": 2009,
+        "band": "65+",
+        "pct": 4.85,
+        "source": "historical"
+      },
+      {
+        "year": 2010,
+        "band": "0-14",
+        "pct": 27.36,
+        "source": "historical"
+      },
+      {
+        "year": 2010,
+        "band": "15-64",
+        "pct": 67.66,
+        "source": "historical"
+      },
+      {
+        "year": 2010,
+        "band": "65+",
+        "pct": 4.98,
+        "source": "historical"
+      },
+      {
+        "year": 2011,
+        "band": "0-14",
+        "pct": 26.81,
+        "source": "historical"
+      },
+      {
+        "year": 2011,
+        "band": "15-64",
+        "pct": 68.06,
+        "source": "historical"
+      },
+      {
+        "year": 2011,
+        "band": "65+",
+        "pct": 5.13,
+        "source": "historical"
+      },
+      {
+        "year": 2012,
+        "band": "0-14",
+        "pct": 26.35,
+        "source": "historical"
+      },
+      {
+        "year": 2012,
+        "band": "15-64",
+        "pct": 68.34,
+        "source": "historical"
+      },
+      {
+        "year": 2012,
+        "band": "65+",
+        "pct": 5.31,
+        "source": "historical"
+      },
+      {
+        "year": 2013,
+        "band": "0-14",
+        "pct": 25.76,
+        "source": "historical"
+      },
+      {
+        "year": 2013,
+        "band": "15-64",
+        "pct": 68.78,
+        "source": "historical"
+      },
+      {
+        "year": 2013,
+        "band": "65+",
+        "pct": 5.46,
+        "source": "historical"
+      },
+      {
+        "year": 2014,
+        "band": "0-14",
+        "pct": 25.31,
+        "source": "historical"
+      },
+      {
+        "year": 2014,
+        "band": "15-64",
+        "pct": 69.04,
+        "source": "historical"
+      },
+      {
+        "year": 2014,
+        "band": "65+",
+        "pct": 5.65,
+        "source": "historical"
+      },
+      {
+        "year": 2015,
+        "band": "0-14",
+        "pct": 24.93,
+        "source": "historical"
+      },
+      {
+        "year": 2015,
+        "band": "15-64",
+        "pct": 69.23,
+        "source": "historical"
+      },
+      {
+        "year": 2015,
+        "band": "65+",
+        "pct": 5.84,
+        "source": "historical"
+      },
+      {
+        "year": 2016,
+        "band": "0-14",
+        "pct": 24.53,
+        "source": "historical"
+      },
+      {
+        "year": 2016,
+        "band": "15-64",
+        "pct": 69.43,
+        "source": "historical"
+      },
+      {
+        "year": 2016,
+        "band": "65+",
+        "pct": 6.04,
+        "source": "historical"
+      },
+      {
+        "year": 2017,
+        "band": "0-14",
+        "pct": 24.13,
+        "source": "historical"
+      },
+      {
+        "year": 2017,
+        "band": "15-64",
+        "pct": 69.62,
+        "source": "historical"
+      },
+      {
+        "year": 2017,
+        "band": "65+",
+        "pct": 6.25,
+        "source": "historical"
+      },
+      {
+        "year": 2018,
+        "band": "0-14",
+        "pct": 23.8,
+        "source": "historical"
+      },
+      {
+        "year": 2018,
+        "band": "15-64",
+        "pct": 69.74,
+        "source": "historical"
+      },
+      {
+        "year": 2018,
+        "band": "65+",
+        "pct": 6.47,
+        "source": "historical"
+      },
+      {
+        "year": 2019,
+        "band": "0-14",
+        "pct": 23.53,
+        "source": "historical"
+      },
+      {
+        "year": 2019,
+        "band": "15-64",
+        "pct": 69.74,
+        "source": "historical"
+      },
+      {
+        "year": 2019,
+        "band": "65+",
+        "pct": 6.73,
+        "source": "historical"
+      },
+      {
+        "year": 2020,
+        "band": "0-14",
+        "pct": 23.95,
+        "source": "historical"
+      },
+      {
+        "year": 2020,
+        "band": "15-64",
+        "pct": 69.29,
+        "source": "historical"
+      },
+      {
+        "year": 2020,
+        "band": "65+",
+        "pct": 6.75,
+        "source": "historical"
+      },
+      {
+        "year": 2021,
+        "band": "0-14",
+        "pct": 23.59,
+        "source": "historical"
+      },
+      {
+        "year": 2021,
+        "band": "15-64",
+        "pct": 69.38,
+        "source": "historical"
+      },
+      {
+        "year": 2021,
+        "band": "65+",
+        "pct": 7.03,
+        "source": "historical"
+      },
+      {
+        "year": 2022,
+        "band": "0-14",
+        "pct": 23.18,
+        "source": "historical"
+      },
+      {
+        "year": 2022,
+        "band": "15-64",
+        "pct": 69.59,
+        "source": "historical"
+      },
+      {
+        "year": 2022,
+        "band": "65+",
+        "pct": 7.23,
+        "source": "historical"
+      },
+      {
+        "year": 2023,
+        "band": "0-14",
+        "pct": 22.66,
+        "source": "historical"
+      },
+      {
+        "year": 2023,
+        "band": "15-64",
+        "pct": 69.9,
+        "source": "historical"
+      },
+      {
+        "year": 2023,
+        "band": "65+",
+        "pct": 7.44,
+        "source": "historical"
+      },
+      {
+        "year": 2024,
+        "band": "0-14",
+        "pct": 22.17,
+        "source": "historical"
+      },
+      {
+        "year": 2024,
+        "band": "15-64",
+        "pct": 70.16,
+        "source": "historical"
+      },
+      {
+        "year": 2024,
+        "band": "65+",
+        "pct": 7.66,
+        "source": "historical"
+      },
+      {
+        "year": 2025,
+        "band": "0-14",
+        "pct": 21.62,
+        "source": "historical"
+      },
+      {
+        "year": 2025,
+        "band": "15-64",
+        "pct": 70.35,
+        "source": "historical"
+      },
+      {
+        "year": 2025,
+        "band": "65+",
+        "pct": 8.02,
+        "source": "historical"
+      },
+      {
+        "year": 2026,
+        "band": "0-14",
+        "pct": 20.85,
+        "source": "projection"
+      },
+      {
+        "year": 2026,
+        "band": "15-64",
+        "pct": 70.82,
+        "source": "projection"
+      },
+      {
+        "year": 2026,
+        "band": "65+",
+        "pct": 8.33,
+        "source": "projection"
+      },
+      {
+        "year": 2027,
+        "band": "0-14",
+        "pct": 20.39,
+        "source": "projection"
+      },
+      {
+        "year": 2027,
+        "band": "15-64",
+        "pct": 70.98,
+        "source": "projection"
+      },
+      {
+        "year": 2027,
+        "band": "65+",
+        "pct": 8.64,
+        "source": "projection"
+      },
+      {
+        "year": 2028,
+        "band": "0-14",
+        "pct": 19.91,
+        "source": "projection"
+      },
+      {
+        "year": 2028,
+        "band": "15-64",
+        "pct": 71.15,
+        "source": "projection"
+      },
+      {
+        "year": 2028,
+        "band": "65+",
+        "pct": 8.94,
+        "source": "projection"
+      },
+      {
+        "year": 2029,
+        "band": "0-14",
+        "pct": 19.45,
+        "source": "projection"
+      },
+      {
+        "year": 2029,
+        "band": "15-64",
+        "pct": 71.31,
+        "source": "projection"
+      },
+      {
+        "year": 2029,
+        "band": "65+",
+        "pct": 9.24,
+        "source": "projection"
+      },
+      {
+        "year": 2030,
+        "band": "0-14",
+        "pct": 18.98,
+        "source": "projection"
+      },
+      {
+        "year": 2030,
+        "band": "15-64",
+        "pct": 71.5,
+        "source": "projection"
+      },
+      {
+        "year": 2030,
+        "band": "65+",
+        "pct": 9.52,
+        "source": "projection"
+      },
+      {
+        "year": 2031,
+        "band": "0-14",
+        "pct": 18.54,
+        "source": "projection"
+      },
+      {
+        "year": 2031,
+        "band": "15-64",
+        "pct": 71.67,
+        "source": "projection"
+      },
+      {
+        "year": 2031,
+        "band": "65+",
+        "pct": 9.8,
+        "source": "projection"
+      },
+      {
+        "year": 2032,
+        "band": "0-14",
+        "pct": 18.14,
+        "source": "projection"
+      },
+      {
+        "year": 2032,
+        "band": "15-64",
+        "pct": 71.79,
+        "source": "projection"
+      },
+      {
+        "year": 2032,
+        "band": "65+",
+        "pct": 10.07,
+        "source": "projection"
+      },
+      {
+        "year": 2033,
+        "band": "0-14",
+        "pct": 17.81,
+        "source": "projection"
+      },
+      {
+        "year": 2033,
+        "band": "15-64",
+        "pct": 71.84,
+        "source": "projection"
+      },
+      {
+        "year": 2033,
+        "band": "65+",
+        "pct": 10.35,
+        "source": "projection"
+      },
+      {
+        "year": 2034,
+        "band": "0-14",
+        "pct": 17.57,
+        "source": "projection"
+      },
+      {
+        "year": 2034,
+        "band": "15-64",
+        "pct": 71.81,
+        "source": "projection"
+      },
+      {
+        "year": 2034,
+        "band": "65+",
+        "pct": 10.62,
+        "source": "projection"
+      },
+      {
+        "year": 2035,
+        "band": "0-14",
+        "pct": 17.42,
+        "source": "projection"
+      },
+      {
+        "year": 2035,
+        "band": "15-64",
+        "pct": 71.69,
+        "source": "projection"
+      },
+      {
+        "year": 2035,
+        "band": "65+",
+        "pct": 10.9,
+        "source": "projection"
+      },
+      {
+        "year": 2036,
+        "band": "0-14",
+        "pct": 17.32,
+        "source": "projection"
+      },
+      {
+        "year": 2036,
+        "band": "15-64",
+        "pct": 71.5,
+        "source": "projection"
+      },
+      {
+        "year": 2036,
+        "band": "65+",
+        "pct": 11.18,
+        "source": "projection"
+      },
+      {
+        "year": 2037,
+        "band": "0-14",
+        "pct": 17.26,
+        "source": "projection"
+      },
+      {
+        "year": 2037,
+        "band": "15-64",
+        "pct": 71.27,
+        "source": "projection"
+      },
+      {
+        "year": 2037,
+        "band": "65+",
+        "pct": 11.47,
+        "source": "projection"
+      },
+      {
+        "year": 2038,
+        "band": "0-14",
+        "pct": 17.18,
+        "source": "projection"
+      },
+      {
+        "year": 2038,
+        "band": "15-64",
+        "pct": 71.05,
+        "source": "projection"
+      },
+      {
+        "year": 2038,
+        "band": "65+",
+        "pct": 11.77,
+        "source": "projection"
+      },
+      {
+        "year": 2039,
+        "band": "0-14",
+        "pct": 17.11,
+        "source": "projection"
+      },
+      {
+        "year": 2039,
+        "band": "15-64",
+        "pct": 70.82,
+        "source": "projection"
+      },
+      {
+        "year": 2039,
+        "band": "65+",
+        "pct": 12.07,
+        "source": "projection"
+      },
+      {
+        "year": 2040,
+        "band": "0-14",
+        "pct": 17.03,
+        "source": "projection"
+      },
+      {
+        "year": 2040,
+        "band": "15-64",
+        "pct": 70.59,
+        "source": "projection"
+      },
+      {
+        "year": 2040,
+        "band": "65+",
+        "pct": 12.39,
+        "source": "projection"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "description": "Stacked area \u2014 historical portion.",
+      "transform": [
+        {
+          "filter": "datum.source === 'historical'"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1970,
+              2040
+            ]
+          },
+          "axis": {
+            "title": null,
+            "format": "d",
+            "values": [
+              1970,
+              1980,
+              1990,
+              2000,
+              2010,
+              2020,
+              2030,
+              2040
+            ],
+            "labelFontSize": 11,
+            "labelColor": "#555",
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "pct",
+          "type": "quantitative",
+          "stack": "normalize",
+          "axis": {
+            "title": "% of population",
+            "titleFontSize": 11,
+            "titleColor": "#666",
+            "labelFontSize": 10,
+            "labelColor": "#888",
+            "format": ".0%",
+            "grid": true,
+            "gridDash": [
+              2,
+              4
+            ],
+            "gridColor": "#eee"
+          }
+        },
+        "color": {
+          "field": "band",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "0-14",
+              "15-64",
+              "65+"
+            ],
+            "range": [
+              "#7bb0d2",
+              "#bbbbbb",
+              "#c44b4b"
+            ]
+          },
+          "legend": null
+        },
+        "order": {
+          "field": "band",
+          "type": "nominal",
+          "sort": [
+            "0-14",
+            "15-64",
+            "65+"
+          ]
+        }
+      }
+    },
+    {
+      "description": "Stacked area \u2014 projection portion (lighter).",
+      "transform": [
+        {
+          "filter": "datum.source === 'projection'"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "opacity": 0.55
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "pct",
+          "type": "quantitative",
+          "stack": "normalize"
+        },
+        "color": {
+          "field": "band",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "0-14",
+              "15-64",
+              "65+"
+            ],
+            "range": [
+              "#7bb0d2",
+              "#bbbbbb",
+              "#c44b4b"
+            ]
+          },
+          "legend": null
+        },
+        "order": {
+          "field": "band",
+          "type": "nominal",
+          "sort": [
+            "0-14",
+            "15-64",
+            "65+"
+          ]
+        }
+      }
+    },
+    {
+      "description": "Vertical rule at 2025 (today/projection boundary).",
+      "data": {
+        "values": [
+          {
+            "year": 2025
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#222",
+        "strokeDash": [
+          4,
+          3
+        ],
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "description": "'TODAY' label above the rule.",
+      "data": {
+        "values": [
+          {
+            "year": 2025,
+            "y": 1.04,
+            "label": "TODAY"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "color": "#222",
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              1
+            ]
+          },
+          "axis": null
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "'Projection \u2192' label.",
+      "data": {
+        "values": [
+          {
+            "year": 2032,
+            "y": 1.04,
+            "label": "Projection \u2192"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontStyle": "italic",
+        "color": "#666",
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              1
+            ]
+          },
+          "axis": null
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "Band labels on the right (2040 values).",
+      "data": {
+        "values": [
+          {
+            "year": 2040,
+            "y": 0.085,
+            "label": "Children (0-14): 17%",
+            "color": "#1e5b80"
+          },
+          {
+            "year": 2040,
+            "y": 0.55,
+            "label": "Workers (15-64): 71%",
+            "color": "#444"
+          },
+          {
+            "year": 2040,
+            "y": 0.94,
+            "label": "Elderly (65+): 12%",
+            "color": "#9d2c2c"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              1
+            ]
+          }
+        },
+        "text": {
+          "field": "label"
+        },
+        "color": {
+          "field": "color",
+          "type": "nominal",
+          "scale": null,
+          "legend": null
+        }
+      }
+    },
+    {
+      "description": "Band labels on the left (1970 values).",
+      "data": {
+        "values": [
+          {
+            "year": 1970,
+            "y": 0.22,
+            "label": "45%",
+            "color": "#1e5b80"
+          },
+          {
+            "year": 1970,
+            "y": 0.74,
+            "label": "52%",
+            "color": "#444"
+          },
+          {
+            "year": 1970,
+            "y": 0.985,
+            "label": "3%",
+            "color": "#9d2c2c"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -6,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              1
+            ]
+          }
+        },
+        "text": {
+          "field": "label"
+        },
+        "color": {
+          "field": "color",
+          "type": "nominal",
+          "scale": null,
+          "legend": null
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+  }
+}

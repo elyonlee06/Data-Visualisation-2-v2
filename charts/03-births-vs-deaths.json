@@ -1,0 +1,467 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": null,
+    "subtitle": [
+      "Every year, more Malaysians are born than die \u2014 but the gap is shrinking.",
+      "The shaded area is the surplus: how much the population grows naturally each year."
+    ],
+    "subtitleFontSize": 11,
+    "subtitleColor": "#666",
+    "anchor": "start",
+    "fontSize": 20,
+    "offset": 12
+  },
+  "width": 720,
+  "height": 360,
+  "data": {
+    "values": [
+      {
+        "year": 2000,
+        "births": 537853,
+        "deaths": 100707,
+        "natural_increase": 437146
+      },
+      {
+        "year": 2001,
+        "births": 505479,
+        "deaths": 104531,
+        "natural_increase": 400948
+      },
+      {
+        "year": 2002,
+        "births": 494538,
+        "deaths": 110367,
+        "natural_increase": 384171
+      },
+      {
+        "year": 2003,
+        "births": 481399,
+        "deaths": 112744,
+        "natural_increase": 368655
+      },
+      {
+        "year": 2004,
+        "births": 481800,
+        "deaths": 113192,
+        "natural_increase": 368608
+      },
+      {
+        "year": 2005,
+        "births": 474473,
+        "deaths": 115436,
+        "natural_increase": 359037
+      },
+      {
+        "year": 2006,
+        "births": 472698,
+        "deaths": 117778,
+        "natural_increase": 354920
+      },
+      {
+        "year": 2007,
+        "births": 479647,
+        "deaths": 120670,
+        "natural_increase": 358977
+      },
+      {
+        "year": 2008,
+        "births": 493203,
+        "deaths": 127098,
+        "natural_increase": 366105
+      },
+      {
+        "year": 2009,
+        "births": 501644,
+        "deaths": 131328,
+        "natural_increase": 370316
+      },
+      {
+        "year": 2010,
+        "births": 491239,
+        "deaths": 130978,
+        "natural_increase": 360261
+      },
+      {
+        "year": 2011,
+        "births": 511594,
+        "deaths": 135463,
+        "natural_increase": 376131
+      },
+      {
+        "year": 2012,
+        "births": 526012,
+        "deaths": 138692,
+        "natural_increase": 387320
+      },
+      {
+        "year": 2013,
+        "births": 503914,
+        "deaths": 142202,
+        "natural_increase": 361712
+      },
+      {
+        "year": 2014,
+        "births": 528612,
+        "deaths": 150318,
+        "natural_increase": 378294
+      },
+      {
+        "year": 2015,
+        "births": 521136,
+        "deaths": 155786,
+        "natural_increase": 365350
+      },
+      {
+        "year": 2016,
+        "births": 508203,
+        "deaths": 162201,
+        "natural_increase": 346002
+      },
+      {
+        "year": 2017,
+        "births": 508685,
+        "deaths": 168168,
+        "natural_increase": 340517
+      },
+      {
+        "year": 2018,
+        "births": 501945,
+        "deaths": 172031,
+        "natural_increase": 329914
+      },
+      {
+        "year": 2019,
+        "births": 489863,
+        "deaths": 174254,
+        "natural_increase": 315609
+      },
+      {
+        "year": 2020,
+        "births": 471504,
+        "deaths": 167181,
+        "natural_increase": 304323
+      },
+      {
+        "year": 2021,
+        "births": 439744,
+        "deaths": 224931,
+        "natural_increase": 214813
+      },
+      {
+        "year": 2022,
+        "births": 423124,
+        "deaths": 206780,
+        "natural_increase": 216344
+      },
+      {
+        "year": 2023,
+        "births": 455761,
+        "deaths": 196965,
+        "natural_increase": 258796
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          2000,
+          2023
+        ]
+      },
+      "axis": {
+        "title": null,
+        "format": "d",
+        "values": [
+          2000,
+          2005,
+          2010,
+          2015,
+          2020,
+          2023
+        ],
+        "labelFontSize": 11,
+        "labelColor": "#555",
+        "grid": false
+      }
+    },
+    "y": {
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          600000
+        ]
+      },
+      "axis": {
+        "title": "Per year",
+        "titleFontSize": 11,
+        "titleColor": "#666",
+        "values": [
+          0,
+          100000,
+          200000,
+          300000,
+          400000,
+          500000,
+          600000
+        ],
+        "labelExpr": "datum.value === 0 ? '0' : (datum.value/1000) + 'k'",
+        "labelFontSize": 10,
+        "labelColor": "#888",
+        "grid": true,
+        "gridDash": [
+          2,
+          4
+        ],
+        "gridColor": "#eee"
+      }
+    }
+  },
+  "layer": [
+    {
+      "description": "Shaded area between births and deaths = natural increase.",
+      "mark": {
+        "type": "area",
+        "color": "#cfe2f3",
+        "opacity": 0.6
+      },
+      "encoding": {
+        "y": {
+          "field": "deaths",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "births"
+        }
+      }
+    },
+    {
+      "description": "Births line.",
+      "mark": {
+        "type": "line",
+        "color": "#2a6f97",
+        "strokeWidth": 2.5,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "y": {
+          "field": "births",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "description": "Deaths line.",
+      "mark": {
+        "type": "line",
+        "color": "#9d2c2c",
+        "strokeWidth": 2.5,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "y": {
+          "field": "deaths",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "description": "Dot markers on both lines for hover.",
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 40,
+        "opacity": 0
+      },
+      "encoding": {
+        "y": {
+          "field": "births",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "births",
+            "title": "Births",
+            "format": ","
+          },
+          {
+            "field": "deaths",
+            "title": "Deaths",
+            "format": ","
+          },
+          {
+            "field": "natural_increase",
+            "title": "Net new Malaysians",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "description": "Label: BIRTHS.",
+      "data": {
+        "values": [
+          {
+            "year": 2002,
+            "y": 555000,
+            "label": "BIRTHS"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "#2a6f97",
+        "fontWeight": "bold",
+        "fontSize": 12,
+        "align": "left"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "Label: DEATHS.",
+      "data": {
+        "values": [
+          {
+            "year": 2002,
+            "y": 80000,
+            "label": "DEATHS"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "#9d2c2c",
+        "fontWeight": "bold",
+        "fontSize": 12,
+        "align": "left"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "Label: NATURAL INCREASE.",
+      "data": {
+        "values": [
+          {
+            "year": 2007,
+            "y": 290000,
+            "label": "\u2190 gap = new Malaysians added each year"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "#456",
+        "fontSize": 10,
+        "fontStyle": "italic",
+        "align": "left"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "description": "COVID annotation \u2014 vertical rule on 2021.",
+      "data": {
+        "values": [
+          {
+            "year": 2021
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#aaa",
+        "strokeDash": [
+          3,
+          3
+        ],
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "description": "COVID label.",
+      "data": {
+        "values": [
+          {
+            "year": 2021,
+            "y": 580000,
+            "label": "COVID-19"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "#666",
+        "fontSize": 10,
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+  }
+}

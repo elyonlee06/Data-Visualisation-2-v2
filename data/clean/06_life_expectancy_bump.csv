@@ -1,0 +1,577 @@
+country,year,life_expectancy,rank
+China,1960,33.4,9
+China,1961,40.2,9
+China,1962,51.0,8
+China,1963,51.7,8
+China,1964,52.3,8
+China,1965,53.0,8
+China,1966,53.7,7
+China,1967,54.4,7
+China,1968,55.2,6
+China,1969,56.0,6
+China,1970,56.8,6
+China,1971,57.7,6
+China,1972,58.6,6
+China,1973,59.5,6
+China,1974,60.2,6
+China,1975,61.0,6
+China,1976,61.2,6
+China,1977,62.5,6
+China,1978,63.1,6
+China,1979,63.7,6
+China,1980,64.2,6
+China,1981,64.8,6
+China,1982,65.2,6
+China,1983,65.7,6
+China,1984,66.1,6
+China,1985,66.5,6
+China,1986,66.9,7
+China,1987,67.3,7
+China,1988,67.6,7
+China,1989,67.9,7
+China,1990,68.2,7
+China,1991,68.6,7
+China,1992,69.1,7
+China,1993,69.5,7
+China,1994,69.8,6
+China,1995,70.4,6
+China,1996,70.8,6
+China,1997,71.2,6
+China,1998,71.6,6
+China,1999,72.0,6
+China,2000,72.3,6
+China,2001,72.7,6
+China,2002,73.0,6
+China,2003,73.4,5
+China,2004,73.7,5
+China,2005,74.1,5
+China,2006,74.4,5
+China,2007,74.8,5
+China,2008,74.8,5
+China,2009,75.3,4
+China,2010,75.7,4
+China,2011,75.9,4
+China,2012,76.2,4
+China,2013,76.5,4
+China,2014,76.7,4
+China,2015,77.0,4
+China,2016,77.2,4
+China,2017,77.2,4
+China,2018,77.7,4
+China,2019,77.9,4
+China,2020,78.0,4
+China,2021,78.1,4
+China,2022,78.2,4
+China,2023,78.0,4
+Indonesia,1960,46.8,8
+Indonesia,1961,47.4,8
+Indonesia,1962,48.1,9
+Indonesia,1963,48.7,9
+Indonesia,1964,49.4,9
+Indonesia,1965,42.8,9
+Indonesia,1966,48.4,9
+Indonesia,1967,51.3,9
+Indonesia,1968,51.9,9
+Indonesia,1969,52.6,9
+Indonesia,1970,53.3,9
+Indonesia,1971,53.8,9
+Indonesia,1972,54.4,8
+Indonesia,1973,54.9,9
+Indonesia,1974,55.4,8
+Indonesia,1975,56.0,9
+Indonesia,1976,56.4,9
+Indonesia,1977,57.1,9
+Indonesia,1978,57.6,9
+Indonesia,1979,58.2,9
+Indonesia,1980,58.7,9
+Indonesia,1981,59.1,9
+Indonesia,1982,59.7,9
+Indonesia,1983,60.3,9
+Indonesia,1984,60.9,9
+Indonesia,1985,61.4,9
+Indonesia,1986,61.7,9
+Indonesia,1987,62.1,9
+Indonesia,1988,62.4,9
+Indonesia,1989,62.9,9
+Indonesia,1990,63.2,9
+Indonesia,1991,63.7,9
+Indonesia,1992,64.2,9
+Indonesia,1993,64.9,9
+Indonesia,1994,65.0,9
+Indonesia,1995,65.3,9
+Indonesia,1996,65.5,9
+Indonesia,1997,65.8,9
+Indonesia,1998,65.9,9
+Indonesia,1999,66.0,9
+Indonesia,2000,66.3,9
+Indonesia,2001,66.6,9
+Indonesia,2002,67.0,9
+Indonesia,2003,67.1,9
+Indonesia,2004,65.5,9
+Indonesia,2005,67.5,9
+Indonesia,2006,67.7,9
+Indonesia,2007,67.9,9
+Indonesia,2008,68.1,9
+Indonesia,2009,68.3,9
+Indonesia,2010,68.4,9
+Indonesia,2011,68.6,9
+Indonesia,2012,68.9,9
+Indonesia,2013,69.1,9
+Indonesia,2014,69.3,8
+Indonesia,2015,69.5,8
+Indonesia,2016,69.7,8
+Indonesia,2017,70.0,8
+Indonesia,2018,70.1,8
+Indonesia,2019,70.3,8
+Indonesia,2020,68.8,9
+Indonesia,2021,67.5,8
+Indonesia,2022,70.9,8
+Indonesia,2023,71.1,8
+Japan,1960,67.7,1
+Japan,1961,68.4,1
+Japan,1962,68.7,1
+Japan,1963,69.7,1
+Japan,1964,70.2,1
+Japan,1965,70.3,1
+Japan,1966,71.1,1
+Japan,1967,71.4,1
+Japan,1968,71.7,1
+Japan,1969,71.9,1
+Japan,1970,72.0,1
+Japan,1971,72.8,1
+Japan,1972,73.3,1
+Japan,1973,73.4,1
+Japan,1974,73.8,1
+Japan,1975,74.4,1
+Japan,1976,74.8,1
+Japan,1977,75.3,1
+Japan,1978,75.7,1
+Japan,1979,76.2,1
+Japan,1980,76.1,1
+Japan,1981,76.6,1
+Japan,1982,77.1,1
+Japan,1983,77.1,1
+Japan,1984,77.5,1
+Japan,1985,77.8,1
+Japan,1986,78.2,1
+Japan,1987,78.6,1
+Japan,1988,78.5,1
+Japan,1989,79.0,1
+Japan,1990,79.0,1
+Japan,1991,79.3,1
+Japan,1992,79.3,1
+Japan,1993,79.4,1
+Japan,1994,79.8,1
+Japan,1995,79.7,1
+Japan,1996,80.4,1
+Japan,1997,80.6,1
+Japan,1998,80.6,1
+Japan,1999,80.6,1
+Japan,2000,81.2,1
+Japan,2001,81.5,1
+Japan,2002,81.8,1
+Japan,2003,81.9,1
+Japan,2004,82.1,1
+Japan,2005,82.0,1
+Japan,2006,82.4,1
+Japan,2007,82.5,1
+Japan,2008,82.6,1
+Japan,2009,83.0,1
+Japan,2010,82.9,1
+Japan,2011,82.7,1
+Japan,2012,83.2,1
+Japan,2013,83.4,1
+Japan,2014,83.6,1
+Japan,2015,83.9,1
+Japan,2016,84.1,1
+Japan,2017,84.2,1
+Japan,2018,84.3,1
+Japan,2019,84.4,1
+Japan,2020,84.7,1
+Japan,2021,84.6,1
+Japan,2022,84.1,1
+Japan,2023,84.7,1
+Malaysia,1960,57.2,5
+Malaysia,1961,58.0,5
+Malaysia,1962,58.9,4
+Malaysia,1963,59.7,4
+Malaysia,1964,60.4,3
+Malaysia,1965,61.1,3
+Malaysia,1966,61.7,3
+Malaysia,1967,62.0,3
+Malaysia,1968,62.4,3
+Malaysia,1969,62.9,3
+Malaysia,1970,63.3,3
+Malaysia,1971,63.8,3
+Malaysia,1972,64.2,3
+Malaysia,1973,64.7,3
+Malaysia,1974,65.2,3
+Malaysia,1975,65.7,3
+Malaysia,1976,66.2,3
+Malaysia,1977,66.7,3
+Malaysia,1978,67.2,3
+Malaysia,1979,67.6,3
+Malaysia,1980,68.1,3
+Malaysia,1981,68.5,3
+Malaysia,1982,68.9,3
+Malaysia,1983,69.2,3
+Malaysia,1984,69.6,3
+Malaysia,1985,69.9,3
+Malaysia,1986,70.1,3
+Malaysia,1987,70.4,3
+Malaysia,1988,70.6,3
+Malaysia,1989,70.8,3
+Malaysia,1990,71.0,3
+Malaysia,1991,71.2,4
+Malaysia,1992,71.5,4
+Malaysia,1993,71.7,4
+Malaysia,1994,71.9,4
+Malaysia,1995,72.0,4
+Malaysia,1996,72.1,4
+Malaysia,1997,72.3,4
+Malaysia,1998,72.4,4
+Malaysia,1999,72.4,5
+Malaysia,2000,72.7,4
+Malaysia,2001,73.1,4
+Malaysia,2002,73.5,4
+Malaysia,2003,73.7,4
+Malaysia,2004,74.0,4
+Malaysia,2005,74.4,4
+Malaysia,2006,74.7,4
+Malaysia,2007,75.0,4
+Malaysia,2008,75.2,4
+Malaysia,2009,75.3,4
+Malaysia,2010,75.4,5
+Malaysia,2011,75.5,5
+Malaysia,2012,75.6,5
+Malaysia,2013,75.5,6
+Malaysia,2014,75.3,6
+Malaysia,2015,75.3,6
+Malaysia,2016,75.4,6
+Malaysia,2017,75.5,6
+Malaysia,2018,75.7,6
+Malaysia,2019,75.9,6
+Malaysia,2020,76.1,6
+Malaysia,2021,73.9,7
+Malaysia,2022,75.4,5
+Malaysia,2023,76.7,5
+Philippines,1960,59.2,3
+Philippines,1961,59.5,3
+Philippines,1962,59.8,3
+Philippines,1963,60.0,3
+Philippines,1964,60.1,4
+Philippines,1965,60.4,4
+Philippines,1966,60.6,4
+Philippines,1967,60.8,5
+Philippines,1968,60.9,4
+Philippines,1969,61.0,5
+Philippines,1970,60.8,5
+Philippines,1971,61.1,5
+Philippines,1972,60.9,5
+Philippines,1973,60.7,5
+Philippines,1974,60.8,5
+Philippines,1975,60.9,7
+Philippines,1976,60.9,7
+Philippines,1977,61.4,7
+Philippines,1978,61.5,7
+Philippines,1979,61.7,7
+Philippines,1980,61.9,8
+Philippines,1981,61.9,8
+Philippines,1982,62.2,8
+Philippines,1983,62.3,8
+Philippines,1984,62.4,8
+Philippines,1985,62.7,8
+Philippines,1986,62.9,8
+Philippines,1987,63.3,8
+Philippines,1988,63.7,8
+Philippines,1989,64.1,8
+Philippines,1990,64.4,8
+Philippines,1991,64.6,8
+Philippines,1992,65.4,8
+Philippines,1993,65.7,8
+Philippines,1994,66.0,8
+Philippines,1995,66.3,8
+Philippines,1996,66.7,8
+Philippines,1997,67.0,8
+Philippines,1998,67.2,8
+Philippines,1999,67.5,8
+Philippines,2000,67.8,8
+Philippines,2001,67.8,8
+Philippines,2002,67.9,8
+Philippines,2003,68.0,8
+Philippines,2004,68.3,8
+Philippines,2005,68.4,8
+Philippines,2006,68.2,8
+Philippines,2007,68.5,8
+Philippines,2008,68.6,8
+Philippines,2009,68.6,8
+Philippines,2010,68.9,8
+Philippines,2011,69.1,8
+Philippines,2012,69.2,8
+Philippines,2013,69.3,8
+Philippines,2014,69.3,8
+Philippines,2015,69.5,8
+Philippines,2016,69.5,9
+Philippines,2017,70.0,8
+Philippines,2018,69.8,9
+Philippines,2019,69.7,9
+Philippines,2020,70.1,8
+Philippines,2021,66.7,9
+Philippines,2022,69.5,9
+Philippines,2023,69.8,9
+Singapore,1960,65.3,2
+Singapore,1961,65.7,2
+Singapore,1962,66.1,2
+Singapore,1963,66.5,2
+Singapore,1964,66.7,2
+Singapore,1965,66.9,2
+Singapore,1966,67.2,2
+Singapore,1967,67.3,2
+Singapore,1968,67.7,2
+Singapore,1969,68.1,2
+Singapore,1970,68.5,2
+Singapore,1971,68.8,2
+Singapore,1972,69.0,2
+Singapore,1973,69.4,2
+Singapore,1974,69.7,2
+Singapore,1975,70.2,2
+Singapore,1976,70.6,2
+Singapore,1977,70.9,2
+Singapore,1978,71.2,2
+Singapore,1979,71.4,2
+Singapore,1980,71.5,2
+Singapore,1981,71.7,2
+Singapore,1982,72.0,2
+Singapore,1983,72.4,2
+Singapore,1984,72.6,2
+Singapore,1985,73.1,2
+Singapore,1986,73.6,2
+Singapore,1987,74.0,2
+Singapore,1988,74.0,2
+Singapore,1989,74.3,2
+Singapore,1990,74.6,2
+Singapore,1991,75.1,2
+Singapore,1992,75.3,2
+Singapore,1993,75.5,2
+Singapore,1994,75.6,2
+Singapore,1995,75.7,2
+Singapore,1996,76.1,2
+Singapore,1997,76.4,2
+Singapore,1998,76.9,2
+Singapore,1999,77.3,2
+Singapore,2000,77.8,2
+Singapore,2001,78.3,2
+Singapore,2002,78.7,2
+Singapore,2003,79.2,2
+Singapore,2004,79.7,2
+Singapore,2005,80.3,2
+Singapore,2006,80.6,2
+Singapore,2007,80.9,2
+Singapore,2008,81.1,2
+Singapore,2009,81.4,2
+Singapore,2010,81.6,2
+Singapore,2011,81.9,2
+Singapore,2012,82.2,2
+Singapore,2013,82.5,2
+Singapore,2014,82.6,2
+Singapore,2015,82.7,2
+Singapore,2016,82.9,2
+Singapore,2017,83.1,3
+Singapore,2018,83.4,2
+Singapore,2019,83.7,2
+Singapore,2020,83.7,2
+Singapore,2021,83.5,3
+Singapore,2022,82.9,2
+Singapore,2023,83.7,3
+South Korea,1960,53.8,6
+South Korea,1961,54.4,6
+South Korea,1962,55.0,6
+South Korea,1963,55.0,6
+South Korea,1964,55.3,6
+South Korea,1965,55.8,6
+South Korea,1966,55.4,6
+South Korea,1967,60.9,4
+South Korea,1968,60.9,4
+South Korea,1969,61.4,4
+South Korea,1970,62.2,4
+South Korea,1971,62.7,4
+South Korea,1972,63.2,4
+South Korea,1973,63.8,4
+South Korea,1974,64.2,4
+South Korea,1975,64.7,4
+South Korea,1976,65.0,4
+South Korea,1977,64.6,4
+South Korea,1978,65.0,4
+South Korea,1979,66.1,4
+South Korea,1980,64.8,5
+South Korea,1981,67.1,4
+South Korea,1982,67.1,4
+South Korea,1983,66.7,4
+South Korea,1984,68.1,4
+South Korea,1985,68.4,4
+South Korea,1986,69.0,4
+South Korea,1987,69.3,4
+South Korea,1988,70.2,4
+South Korea,1989,70.7,4
+South Korea,1990,71.0,3
+South Korea,1991,71.4,3
+South Korea,1992,72.2,3
+South Korea,1993,72.7,3
+South Korea,1994,72.9,3
+South Korea,1995,73.4,3
+South Korea,1996,74.0,3
+South Korea,1997,74.5,3
+South Korea,1998,75.0,3
+South Korea,1999,75.6,3
+South Korea,2000,76.2,3
+South Korea,2001,76.9,3
+South Korea,2002,77.2,3
+South Korea,2003,77.5,3
+South Korea,2004,78.0,3
+South Korea,2005,78.4,3
+South Korea,2006,79.0,3
+South Korea,2007,79.4,3
+South Korea,2008,80.0,3
+South Korea,2009,80.6,3
+South Korea,2010,80.7,3
+South Korea,2011,81.2,3
+South Korea,2012,81.3,3
+South Korea,2013,81.8,3
+South Korea,2014,82.4,3
+South Korea,2015,82.5,3
+South Korea,2016,82.9,2
+South Korea,2017,83.3,2
+South Korea,2018,83.3,3
+South Korea,2019,83.7,2
+South Korea,2020,83.7,2
+South Korea,2021,83.9,2
+South Korea,2022,82.7,3
+South Korea,2023,84.3,2
+Thailand,1960,50.6,7
+Thailand,1961,51.1,7
+Thailand,1962,51.4,7
+Thailand,1963,52.0,7
+Thailand,1964,52.5,7
+Thailand,1965,53.1,7
+Thailand,1966,53.7,7
+Thailand,1967,54.3,8
+Thailand,1968,55.0,7
+Thailand,1969,55.7,7
+Thailand,1970,56.5,7
+Thailand,1971,57.1,7
+Thailand,1972,57.7,7
+Thailand,1973,58.3,7
+Thailand,1974,59.0,7
+Thailand,1975,59.7,8
+Thailand,1976,60.4,8
+Thailand,1977,60.9,8
+Thailand,1978,61.3,8
+Thailand,1979,61.7,7
+Thailand,1980,62.2,7
+Thailand,1981,62.9,7
+Thailand,1982,63.6,7
+Thailand,1983,64.5,7
+Thailand,1984,65.5,7
+Thailand,1985,66.5,6
+Thailand,1986,67.3,6
+Thailand,1987,67.8,6
+Thailand,1988,68.2,6
+Thailand,1989,68.6,6
+Thailand,1990,68.9,6
+Thailand,1991,69.1,6
+Thailand,1992,69.4,6
+Thailand,1993,69.6,6
+Thailand,1994,69.7,7
+Thailand,1995,69.8,7
+Thailand,1996,69.9,7
+Thailand,1997,70.4,7
+Thailand,1998,70.7,7
+Thailand,1999,71.0,7
+Thailand,2000,71.2,7
+Thailand,2001,71.5,7
+Thailand,2002,71.8,7
+Thailand,2003,72.1,7
+Thailand,2004,72.1,7
+Thailand,2005,72.9,7
+Thailand,2006,73.3,6
+Thailand,2007,73.8,6
+Thailand,2008,74.2,6
+Thailand,2009,74.7,6
+Thailand,2010,75.0,6
+Thailand,2011,75.3,6
+Thailand,2012,75.6,5
+Thailand,2013,76.0,5
+Thailand,2014,76.3,5
+Thailand,2015,76.6,5
+Thailand,2016,76.8,5
+Thailand,2017,77.0,5
+Thailand,2018,77.2,5
+Thailand,2019,77.2,5
+Thailand,2020,77.3,5
+Thailand,2021,77.6,5
+Thailand,2022,75.3,6
+Thailand,2023,76.4,6
+Vietnam,1960,58.0,4
+Vietnam,1961,58.5,4
+Vietnam,1962,58.2,5
+Vietnam,1963,56.9,5
+Vietnam,1964,57.5,5
+Vietnam,1965,57.0,5
+Vietnam,1966,56.9,5
+Vietnam,1967,56.7,6
+Vietnam,1968,52.7,8
+Vietnam,1969,54.8,8
+Vietnam,1970,54.9,8
+Vietnam,1971,55.6,8
+Vietnam,1972,51.9,9
+Vietnam,1973,55.7,8
+Vietnam,1974,54.8,9
+Vietnam,1975,61.9,5
+Vietnam,1976,63.7,5
+Vietnam,1977,64.1,5
+Vietnam,1978,64.5,5
+Vietnam,1979,65.0,5
+Vietnam,1980,65.3,4
+Vietnam,1981,65.8,5
+Vietnam,1982,66.2,5
+Vietnam,1983,66.5,5
+Vietnam,1984,66.9,5
+Vietnam,1985,67.2,5
+Vietnam,1986,67.6,5
+Vietnam,1987,68.0,5
+Vietnam,1988,68.6,5
+Vietnam,1989,68.8,5
+Vietnam,1990,69.0,5
+Vietnam,1991,69.3,5
+Vietnam,1992,69.6,5
+Vietnam,1993,70.0,5
+Vietnam,1994,70.4,5
+Vietnam,1995,70.9,5
+Vietnam,1996,71.3,5
+Vietnam,1997,71.7,5
+Vietnam,1998,72.3,5
+Vietnam,1999,72.6,4
+Vietnam,2000,72.7,4
+Vietnam,2001,73.0,5
+Vietnam,2002,73.1,5
+Vietnam,2003,73.2,6
+Vietnam,2004,73.1,6
+Vietnam,2005,73.2,6
+Vietnam,2006,73.3,6
+Vietnam,2007,73.4,7
+Vietnam,2008,73.5,7
+Vietnam,2009,73.5,7
+Vietnam,2010,73.6,7
+Vietnam,2011,73.7,7
+Vietnam,2012,73.8,7
+Vietnam,2013,73.8,7
+Vietnam,2014,73.9,7
+Vietnam,2015,74.0,7
+Vietnam,2016,74.0,7
+Vietnam,2017,74.0,7
+Vietnam,2018,74.1,7
+Vietnam,2019,74.2,7
+Vietnam,2020,75.4,7
+Vietnam,2021,74.1,6
+Vietnam,2022,74.5,7
+Vietnam,2023,74.6,7

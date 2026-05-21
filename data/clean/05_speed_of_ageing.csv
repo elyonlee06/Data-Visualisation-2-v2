@@ -1,0 +1,231 @@
+iso_code,country,year_reached_7pct,year_reached_14pct,speed_years
+BES,Bonaire Sint Eustatius and Saba,1950,1950,0
+MCO,Monaco,1950,1950,0
+IMN,Isle of Man,1950,1951,1
+MAF,Saint Martin (French part),2015,2019,4
+MNP,Northern Mariana Islands,2022,2028,6
+MDV,Maldives,2031,2044,13
+ASM,American Samoa,2022,2035,13
+LBY,Libya,2032,2046,14
+TTO,Trinidad and Tobago,2013,2027,14
+BIH,Bosnia and Herzegovina,1992,2007,15
+GUM,Guam,2012,2027,15
+AZE,Azerbaijan,2021,2036,15
+MUS,Mauritius,2010,2025,15
+PYF,French Polynesia,2014,2029,15
+BRN,Brunei,2025,2041,16
+WLF,Wallis and Futuna,2007,2023,16
+VNM,Vietnam,2019,2036,17
+TCA,Turks and Caicos Islands,2012,2030,18
+THA,Thailand,2004,2022,18
+GRL,Greenland,2011,2029,18
+KOR,South Korea,2000,2018,18
+BRA,Brazil,2012,2031,19
+TLS,East Timor,2050,2069,19
+TUN,Tunisia,2016,2035,19
+GGY,Guernsey,1950,1969,19
+COL,Colombia,2015,2034,19
+CRI,Costa Rica,2009,2028,19
+BLZ,Belize,2033,2053,20
+DZA,Algeria,2026,2046,20
+GTM,Guatemala,2041,2061,20
+AUT,Austria,1950,1970,20
+BTN,Bhutan,2028,2048,20
+COK,Cook Islands,2005,2025,20
+SGP,Singapore,2005,2025,20
+IRN,Iran,2019,2039,20
+ALB,Albania,1999,2019,20
+OWID_KOS,Kosovo,2013,2033,20
+ESH,Western Sahara,2027,2048,21
+NIC,Nicaragua,2032,2053,21
+VAT,Vatican,1967,1988,21
+HND,Honduras,2040,2061,21
+CPV,Cape Verde,2025,2046,21
+BWA,Botswana,2047,2068,21
+ERI,Eritrea,2060,2081,21
+SWE,Sweden,1950,1972,22
+PAN,Panama,2015,2037,22
+VEN,Venezuela,2017,2039,22
+REU,Reunion,2000,2022,22
+DEU,Germany,1950,1972,22
+UGA,Uganda,2062,2084,22
+LAO,Laos,2039,2061,22
+MAR,Morocco,2021,2044,23
+MYS,Malaysia,2022,2045,23
+CHN,China,2000,2023,23
+NCL,New Caledonia,2008,2031,23
+IDN,Indonesia,2023,2047,24
+PSE,Palestine,2046,2070,24
+UN_ASI,Asia (UN),2012,2036,24
+TWN,Taiwan,1994,2018,24
+JOR,Jordan,2033,2057,24
+CUW,Curacao,1992,2016,24
+BGD,Bangladesh,2027,2051,24
+JPN,Japan,1970,1994,24
+MEX,Mexico,2018,2042,24
+OWID_SAM,South America,2010,2034,24
+OWID_ASI,Asia,2012,2036,24
+GBR,United Kingdom,1950,1975,25
+JEY,Jersey,1950,1975,25
+GMB,Gambia,2059,2084,25
+UN_LAC,Latin America and the Caribbean (UN),2012,2037,25
+MNG,Mongolia,2030,2055,25
+IND,India,2024,2049,25
+BEL,Belgium,1950,1976,26
+LCA,Saint Lucia,2009,2035,26
+ECU,Ecuador,2017,2043,26
+SUR,Suriname,2021,2047,26
+TUR,Turkey,2008,2034,26
+DOM,Dominican Republic,2021,2047,26
+PRK,North Korea,2002,2029,27
+OWID_UMC,Upper-middle-income countries,2002,2029,27
+NOR,Norway,1950,1977,27
+MKD,North Macedonia,1990,2017,27
+TKM,Turkmenistan,2033,2060,27
+DNK,Denmark,1950,1978,28
+ETH,Ethiopia,2060,2088,28
+PRY,Paraguay,2027,2055,28
+ZWE,Zimbabwe,2068,2096,28
+BHS,Bahamas,2002,2030,28
+MRT,Mauritania,2068,2096,28
+PHL,Philippines,2031,2059,28
+MTQ,Martinique,1979,2008,29
+SEN,Senegal,2056,2085,29
+SWZ,Eswatini,2049,2078,29
+MMR,Myanmar,2023,2052,29
+KHM,Cambodia,2028,2057,29
+MWI,Malawi,2062,2091,29
+CHL,Chile,1994,2024,30
+GLP,Guadeloupe,1982,2012,30
+HKG,Hong Kong,1983,2013,30
+IRQ,Iraq,2048,2078,30
+NPL,Nepal,2029,2059,30
+OWID_LMC,Lower-middle-income countries,2029,2059,30
+RWA,Rwanda,2054,2084,30
+LSO,Lesotho,2054,2084,30
+HTI,Haiti,2044,2075,31
+BOL,Bolivia,2035,2066,31
+PER,Peru,2010,2041,31
+SRB,Serbia,1964,1996,32
+STP,Sao Tome and Principe,2053,2085,32
+SLE,Sierra Leone,2060,2092,32
+AFG,Afghanistan,2068,2100,32
+KEN,Kenya,2058,2090,32
+BFA,Burkina Faso,2066,2099,33
+GRC,Greece,1958,1991,33
+EGY,Egypt,2037,2070,33
+ZMB,Zambia,2066,2099,33
+SDN,Sudan,2061,2094,33
+NAM,Namibia,2051,2084,33
+OWID_LIC,Low-income countries,2065,2098,33
+SLB,Solomon Islands,2050,2083,33
+TJK,Tajikistan,2046,2079,33
+YEM,Yemen,2059,2092,33
+PAK,Pakistan,2054,2088,34
+GNB,Guinea-Bissau,2059,2093,34
+SLV,El Salvador,2014,2048,34
+ABW,Aruba,1985,2020,35
+DJI,Djibouti,2037,2072,35
+CHE,Switzerland,1950,1985,35
+PRI,Puerto Rico,1971,2006,35
+SAU,Saudi Arabia,2047,2082,35
+GUY,Guyana,2026,2062,36
+NIU,Niue,1983,2019,36
+VUT,Vanuatu,2051,2087,36
+CUB,Cuba,1979,2015,36
+COM,Comoros,2054,2090,36
+FIN,Finland,1957,1994,37
+ZAF,South Africa,2026,2063,37
+OWID_WRL,World,2002,2039,37
+BMU,Bermuda,1975,2012,37
+GIN,Guinea,2063,2100,37
+BGR,Bulgaria,1955,1992,37
+UN_AFR,Africa (UN),2060,2097,37
+OWID_AFR,Africa,2060,2097,37
+OMN,Oman,2052,2090,38
+GHA,Ghana,2048,2086,38
+ITA,Italy,1950,1988,38
+BRB,Barbados,1980,2019,39
+MYT,Mayotte,2051,2091,40
+FJI,Fiji,2028,2068,40
+HRV,Croatia,1956,1996,40
+BHR,Bahrain,2043,2084,41
+FRA,France,1950,1991,41
+PRT,Portugal,1950,1992,42
+SMR,San Marino,1950,1992,42
+ESP,Spain,1950,1992,42
+GRD,Grenada,1986,2029,43
+SPM,Saint Pierre and Miquelon,1965,2008,43
+PNG,Papua New Guinea,2048,2091,43
+FSM,Micronesia (country),2031,2075,44
+HUN,Hungary,1950,1994,44
+MDA,Moldova,1976,2020,44
+OWID_EUR,Europe,1950,1996,46
+MSR,Montserrat,1950,1996,46
+UN_EUR,Europe (UN),1950,1996,46
+LUX,Luxembourg,1950,1996,46
+GIB,Gibraltar,1950,1996,46
+POL,Poland,1966,2012,46
+EST,Estonia,1950,1997,47
+LVA,Latvia,1950,1997,47
+RUS,Russia,1968,2017,49
+ATG,Antigua and Barbuda,1978,2028,50
+MHL,Marshall Islands,2032,2082,50
+MAC,Macao,1974,2024,50
+SVN,Slovenia,1950,2001,51
+LTU,Lithuania,1950,2001,51
+TON,Tonga,2027,2078,51
+UKR,Ukraine,1950,2002,52
+BLR,Belarus,1950,2002,52
+ROU,Romania,1950,2002,52
+OWID_HIC,High-income countries,1950,2003,53
+UZB,Uzbekistan,2030,2083,53
+GEO,Georgia,1950,2004,54
+SVK,Slovakia,1961,2015,54
+SHN,Saint Helena,1950,2005,55
+NLD,Netherlands,1950,2005,55
+CZE,Czechia,1950,2005,55
+CYP,Cyprus,1966,2022,56
+WSM,Samoa,2031,2087,56
+ARG,Argentina,1974,2032,58
+FRO,Faroe Islands,1950,2008,58
+TUV,Tuvalu,2025,2084,59
+MLT,Malta,1950,2009,59
+URY,Uruguay,1950,2009,59
+CAN,Canada,1950,2010,60
+VIR,United States Virgin Islands,1950,2011,61
+KNA,Saint Kitts and Nevis,1970,2031,61
+LIE,Liechtenstein,1950,2011,61
+AUS,Australia,1950,2012,62
+JAM,Jamaica,1977,2040,63
+NZL,New Zealand,1950,2013,63
+UN_NAM,Northern America (UN),1950,2014,64
+MNE,Montenegro,1950,2015,65
+TKL,Tokelau,1992,2057,65
+USA,United States,1950,2015,65
+ISR,Israel,1972,2038,66
+ISL,Iceland,1950,2017,67
+AIA,Anguilla,1959,2027,68
+OWID_NAM,North America,1955,2023,68
+IRL,Ireland,1950,2019,69
+AND,Andorra,1950,2020,70
+BLM,Saint Barthelemy,1950,2020,70
+KAZ,Kazakhstan,1980,2051,71
+SXM,Sint Maarten (Dutch part),1950,2025,75
+ARM,Armenia,1950,2025,75
+UN_OCE,Oceania (UN),1950,2026,76
+OWID_OCE,Oceania,1950,2026,76
+FLK,Falkland Islands,1950,2027,77
+DMA,Dominica,1950,2028,78
+VCT,Saint Vincent and the Grenadines,1950,2030,80
+PLW,Palau,1950,2030,80
+CYM,Cayman Islands,1952,2032,80
+LKA,Sri Lanka,1950,2030,80
+VGB,British Virgin Islands,1950,2032,82
+LBN,Lebanon,1950,2037,87
+SYC,Seychelles,1950,2040,90
+SYR,Syria,1950,2065,115
+KGZ,Kyrgyzstan,1950,2071,121
+GUF,French Guiana,1950,2072,122
+KIR,Kiribati,1950,2090,140
+GAB,Gabon,1950,2093,143
