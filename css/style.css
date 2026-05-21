@@ -1,5 +1,5 @@
 /* ============================================================
-   FIT2179 DV2 — Malaysia Is Getting Older
+   FIT2179 DV2 — Malaysia rushes to get old
    Design tokens + page styles
    ============================================================ */
 
@@ -78,20 +78,18 @@ body {
   letter-spacing: -0.02em;
   margin: 0 0 var(--gap-m);
   color: var(--c-text);
-  /* italic axis subtly engaged */
   font-variation-settings: "opsz" 84, "SOFT" 30;
 }
 .hero__title em {
   font-style: italic;
   color: var(--c-red);
   font-variation-settings: "opsz" 84, "SOFT" 80;
-  align-items: center;
 }
 .hero__deck {
   font-family: var(--ff-serif);
   font-size: clamp(18px, 2vw, 22px);
   line-height: 1.45;
-  color: var(--c-text-hard);
+  color: var(--c-text-soft);
   font-weight: 300;
   font-style: italic;
   margin: 0 0 var(--gap-l);
@@ -137,7 +135,7 @@ body {
   color: var(--c-red);
   margin: 0 0 var(--gap-xs);
   display: flex;
-  justify-content: center;   
+  justify-content: center;
   gap: 12px;
 }
 .act__label::before {
@@ -148,13 +146,18 @@ body {
 }
 .act__heading {
   font-family: var(--ff-serif);
-  font-size: clamp(28px, 4vw, 38px);
-  line-height: 1.15;
+  font-size: clamp(22px, 4vw, 38px);
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.015em;
   margin: 0 0 var(--gap-s);
   color: var(--c-text);
-
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.act__heading em {
+  font-style: italic;
+  color: var(--c-red);
 }
 .act__intro {
   font-family: var(--ff-serif);
@@ -163,7 +166,7 @@ body {
   color: var(--c-text-soft);
   font-style: italic;
   max-width: 560px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 /* Prose between charts */
@@ -240,7 +243,6 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* Only apply min-height while the chart is still loading (placeholder) */
 .chart:has(.chart-loading) {
   min-height: 380px;
 }
@@ -260,11 +262,13 @@ body {
   font-family: ui-monospace, monospace;
   font-size: 13px;
 }
+
+/* Annotation callout box (used above some charts as a reading guide) */
 .chart-annotation {
   background: #f7f3e9;
   border-left: 3px solid var(--c-orange);
   padding: var(--gap-s) var(--gap-m);
-  margin: 0 0 var(--gap-s);
+  margin: 0 auto var(--gap-s);
   max-width: 600px;
   font-size: 14px;
   line-height: 1.5;
@@ -291,12 +295,8 @@ body {
   vertical-align: middle;
   margin-right: 4px;
 }
-.dot--red {
-  background: #e15759;
-}
-.dot--blue {
-  background: #4c78a8;
-}
+.dot--red  { background: #e15759; }
+.dot--blue { background: #4c78a8; }
 
 /* ============================================================
    Footer
@@ -333,15 +333,117 @@ body {
   letter-spacing: 0.04em;
 }
 
+/* ============================================================
+   Responsive — mobile/tablet adjustments
+   ============================================================ */
 @media (max-width: 700px) {
   .footer__cols { grid-template-columns: 1fr; gap: var(--gap-m); }
   .hero { padding: var(--gap-xl) var(--gap-m) var(--gap-l); }
+  .hero__title { font-size: clamp(32px, 9vw, 48px); }
+  .act { padding: 0 var(--gap-s); }
+  .act__heading { font-size: clamp(20px, 5.5vw, 28px); }
+  .act__intro { font-size: 16px; }
+  .prose { font-size: 17px; padding: 0 var(--gap-s); }
+  .prose--two-col {
+    column-count: 1;   /* stack to single column on phones */
+    column-gap: 0;
+  }
+  .chart-block { padding: 0 var(--gap-s); }
+  .chart { padding: var(--gap-xs); }
+  .pullquote {
+    font-size: 20px;
+    padding-left: var(--gap-s);
+    margin: var(--gap-m) auto;
+  }
 }
 
 /* ============================================================
-   Vega-Lite override — let the chart inherit our typography
-   (the chart's own JSON config sets fonts too; this is a safety net)
+   Vega-Lite container — let charts scale within their card
    ============================================================ */
-.vega-embed { width: 100% !important; }
-.vega-embed details summary { display: none; }   /* hide the burger menu in published view */
-.vega-embed canvas, .vega-embed svg { max-width: 100%; }
+.vega-embed { width: 100% !important; display: block; line-height: 0; }
+.vega-embed details summary { display: none; }
+.vega-embed canvas, .vega-embed svg { max-width: 100%; display: block; }
+
+/* ============================================================
+   Expand button on each chart
+   ============================================================ */
+.chart-expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: var(--gap-xs) 0 0;
+  padding: 6px 12px;
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-text-soft);
+  background: transparent;
+  border: 1px solid var(--c-divider);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.chart-expand:hover,
+.chart-expand:focus-visible {
+  background: var(--c-bg-card);
+  color: var(--c-text);
+  border-color: var(--c-text-soft);
+  outline: none;
+}
+
+/* ============================================================
+   Lightbox / fullscreen chart modal
+   ============================================================ */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 20, 20, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--gap-m);
+  z-index: 1000;
+}
+.lightbox.is-open {
+  display: flex;
+}
+.lightbox__chart {
+  background: var(--c-bg-card);
+  border-radius: 8px;
+  padding: var(--gap-l) var(--gap-m) var(--gap-m);
+  max-width: 95vw;
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+.lightbox__close {
+  position: absolute;
+  top: var(--gap-s);
+  right: var(--gap-s);
+  width: 44px;
+  height: 44px;
+  font-size: 32px;
+  line-height: 1;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 120ms ease;
+}
+.lightbox__close:hover,
+.lightbox__close:focus-visible {
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .lightbox { padding: var(--gap-s); }
+  .lightbox__chart { padding: var(--gap-m) var(--gap-s) var(--gap-s); max-width: 100vw; }
+  .lightbox__close { top: 8px; right: 8px; width: 40px; height: 40px; font-size: 28px; }
+}
