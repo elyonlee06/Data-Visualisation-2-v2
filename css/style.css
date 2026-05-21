@@ -233,7 +233,7 @@ body {
   display: inline-block;
   background: var(--c-bg-card);
   border-radius: 4px;
-  padding: var(--gap-s) var(--gap-s) 0;
+  padding: var(--gap-s) var(--gap-s) var(--gap-s);
   overflow-x: auto;
   overflow-y: hidden;
   max-width: 100%;
