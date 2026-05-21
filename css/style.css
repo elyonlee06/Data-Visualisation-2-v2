@@ -5,12 +5,12 @@
 
 :root {
   /* Palette — the demographic story */
-  --c-red:        #9d2c2c;   /* ageing, elderly, Malaysia subject */
-  --c-red-soft:   #e15759;   /* secondary red highlight */
-  --c-blue:       #2a6f97;   /* young, children, baseline */
-  --c-blue-soft:  #7bb0d2;   /* secondary blue */
-  --c-orange:     #e89c50;   /* accent / Korea / mid-tier */
-  --c-orange-deep:#d96d3a;   /* accent secondary */
+  --c-red:        #9d2c2c;
+  --c-red-soft:   #e15759;
+  --c-blue:       #2a6f97;
+  --c-blue-soft:  #7bb0d2;
+  --c-orange:     #e89c50;
+  --c-orange-deep:#d96d3a;
 
   --c-text:       #1f1f1f;
   --c-text-soft:  #555;
@@ -18,7 +18,7 @@
   --c-rule:       #ddd;
   --c-grey:       #bbb;
   --c-grey-soft:  #eee;
-  --c-bg:         #faf8f4;   /* warm off-white, editorial */
+  --c-bg:         #faf8f4;
   --c-bg-card:    #ffffff;
   --c-divider:    #e8e0d2;
 
@@ -35,8 +35,8 @@
   --gap-xxl: 128px;
 
   /* Layout widths */
-  --w-narrow: 640px;   /* prose */
-  --w-chart:  900px;   /* charts */
+  --w-narrow: 640px;
+  --w-chart:  900px;
   --w-hero:   880px;
 }
 
@@ -110,13 +110,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.section {
-  width: 100%;
-  max-width: var(--w-chart);
-  padding: 0 var(--gap-m);
-  margin-bottom: var(--gap-xxl);
-}
-.section--narrow { max-width: var(--w-narrow); }
 
 /* Act dividers */
 .act {
@@ -184,9 +177,7 @@ body {
   column-count: 2;
   column-gap: var(--gap-l);
 }
-.prose--two-col p:first-child {
-  margin-top: 0;
-}
+.prose--two-col p:first-child { margin-top: 0; }
 .prose p { margin: 0 0 1em; }
 .prose p:last-child { margin-bottom: 0; }
 .prose strong {
@@ -213,25 +204,12 @@ body {
 }
 
 /* Chart container */
-.chart-hint {
-  display: none;
-  font-family: var(--ff-sans);
-  font-size: 13px;
-  font-style: italic;
-  color: var(--c-text-soft);
-  margin: 0 0 var(--gap-xs);
-  text-align: center;
-}
-@media (max-width: 700px) {
-  .chart-hint {
-    display: block;
-  }
-}
 .chart-block {
   width: 100%;
   max-width: var(--w-chart);
   margin: var(--gap-s) auto var(--gap-l);
   padding: 0 var(--gap-m);
+  text-align: center;
 }
 .chart-block__num {
   font-family: var(--ff-sans);
@@ -241,6 +219,7 @@ body {
   text-transform: uppercase;
   color: var(--c-text-mute);
   margin: 0 0 var(--gap-xs);
+  text-align: left;
 }
 .chart-source {
   font-family: var(--ff-sans);
@@ -251,11 +230,13 @@ body {
   font-style: italic;
 }
 .chart {
+  display: inline-block;
   background: var(--c-bg-card);
   border-radius: 4px;
   padding: var(--gap-s) var(--gap-s) 0;
   overflow-x: auto;
   overflow-y: hidden;
+  max-width: 100%;
 }
 .chart:has(.chart-loading) {
   min-height: 380px;
@@ -264,7 +245,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 380px;
+  min-height: 320px;
   color: var(--c-text-mute);
   font-style: italic;
 }
@@ -277,7 +258,7 @@ body {
   font-size: 13px;
 }
 
-/* Annotation callout box (used above some charts as a reading guide) */
+/* Chart-annotation callout (the "How to read" cream box used above Chart 1) */
 .chart-annotation {
   background: #f7f3e9;
   border-left: 3px solid var(--c-orange);
@@ -290,12 +271,8 @@ body {
   text-align: left;
   border-radius: 0 4px 4px 0;
 }
-.chart-annotation p {
-  margin: 0 0 6px;
-}
-.chart-annotation p:last-child {
-  margin-bottom: 0;
-}
+.chart-annotation p { margin: 0 0 6px; }
+.chart-annotation p:last-child { margin-bottom: 0; }
 .chart-annotation strong {
   color: var(--c-text);
   background: none;
@@ -345,34 +322,11 @@ body {
   font-size: 12px;
   color: var(--c-text-mute);
   letter-spacing: 0.04em;
+  margin-top: var(--gap-m);
 }
 
 /* ============================================================
-   Responsive — mobile/tablet adjustments
-   ============================================================ */
-@media (max-width: 700px) {
-  .footer__cols { grid-template-columns: 1fr; gap: var(--gap-m); }
-  .hero { padding: var(--gap-xl) var(--gap-m) var(--gap-l); }
-  .hero__title { font-size: clamp(32px, 9vw, 48px); }
-  .act { padding: 0 var(--gap-s); }
-  .act__heading { font-size: clamp(20px, 5.5vw, 28px); }
-  .act__intro { font-size: 16px; }
-  .prose { font-size: 17px; padding: 0 var(--gap-s); }
-  .prose--two-col {
-    column-count: 1;   /* stack to single column on phones */
-    column-gap: 0;
-  }
-  .chart-block { padding: 0 var(--gap-s); }
-  .chart { padding: var(--gap-xs); }
-  .pullquote {
-    font-size: 20px;
-    padding-left: var(--gap-s);
-    margin: var(--gap-m) auto;
-  }
-}
-
-/* ============================================================
-   Vega-Lite container — let charts scale within their card
+   Vega-Lite container
    ============================================================ */
 .vega-embed { width: 100% !important; display: block; line-height: 0; }
 .vega-embed details summary { display: none; }
@@ -420,9 +374,7 @@ body {
   padding: var(--gap-m);
   z-index: 1000;
 }
-.lightbox.is-open {
-  display: flex;
-}
+.lightbox.is-open { display: flex; }
 .lightbox__chart {
   background: var(--c-bg-card);
   border-radius: 8px;
@@ -456,15 +408,29 @@ body {
   outline: none;
 }
 
+/* ============================================================
+   Responsive — phones and small screens
+   ============================================================ */
 @media (max-width: 700px) {
+  .footer__cols { grid-template-columns: 1fr; gap: var(--gap-m); }
+  .hero { padding: var(--gap-xl) var(--gap-m) var(--gap-l); }
+  .hero__title { font-size: clamp(32px, 9vw, 48px); }
+  .act { padding: 0 var(--gap-s); }
+  .act__heading { font-size: clamp(20px, 5.5vw, 28px); }
+  .act__intro { font-size: 16px; }
+  .prose { font-size: 17px; padding: 0 var(--gap-s); }
+  .prose--two-col {
+    column-count: 1;
+    column-gap: 0;
+  }
+  .chart-block { padding: 0 var(--gap-s); }
+  .chart { padding: var(--gap-xs); }
+  .pullquote {
+    font-size: 20px;
+    padding-left: var(--gap-s);
+    margin: var(--gap-m) auto;
+  }
   .lightbox { padding: var(--gap-s); }
   .lightbox__chart { padding: var(--gap-m) var(--gap-s) var(--gap-s); max-width: 100vw; }
   .lightbox__close { top: 8px; right: 8px; width: 40px; height: 40px; font-size: 28px; }
-}
-
-/* Chart 10 needs more room than a phone screen can give */
-@media (max-width: 700px) {
-  #chart-10 {
-    min-width: 700px;
-  }
 }
